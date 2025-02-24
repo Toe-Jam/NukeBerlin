@@ -9,12 +9,13 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Nuke Berlin!.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Nuke Berlin!" startnode="1" creator="Twine" creator-version="2.9.0" format="Harlowe" format-version="3.3.9" ifid="D577ADB5-9DB8-4A18-BE55-709C9EDE0AC5" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Chapter 1: Wedding Crashers" tags="" position="100,25" size="100,100">Down here on this leafy pathway, it still smells of the rainy weeks that had turned Berlin into a giant laundromat. But looking up, the sky is pristine clear today, and the sun is shining stolidly. You walk down the jungly median strip of Antwerpener Strasse. A warm breeze brushes your skin, carrying the scent of lilacs and something you can’t quite name. Trees arch overhead, their branches heavy with fresh green leaves and clusters of blossoms. You shift your backpack on your shoulder, the weight of your textbooks digging into your muscles. The day at university has been long, and the thought of sinking into your couch with a plate of food keeps you moving. 
+<tw-storydata name="Nuke Berlin!" startnode="1" creator="Twine" creator-version="2.9.0" format="Harlowe" format-version="3.3.9" ifid="D577ADB5-9DB8-4A18-BE55-709C9EDE0AC5" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Chapter 1: Wedding Crashers" tags="" position="125,75" size="100,100">Down here on this leafy pathway, it still smells of the rainy weeks that had turned Berlin into a giant laundromat. But looking up, the sky is pristine clear today, and the sun is shining stolidly. You walk down the jungly median strip of Antwerpener Strasse. A warm breeze brushes your skin, carrying the scent of lilacs and something you can’t quite name. Trees arch overhead, their branches heavy with fresh green leaves and clusters of blossoms. You shift your backpack on your shoulder, the weight of your textbooks digging into your muscles. The day at university has been long, and the thought of sinking into your couch with a plate of food keeps you moving. You remember that your friend Hannah had called in the morning but didn&#39;t reach you.
 
-For some reason, your friend Hannah comes to mind. She always makes fun of the fact that you live in a neighborhood called Wedding. And indeed, the name feels like a cosmic joke aimed directly at your perpetually single self. But you love this neighborhood, with its down-to-earth spirit. And you love your little apartment that you&#39;ve taken on as a subtenant in order to finish your master&#39;s degree at Humboldt University.
+[[Maybe you should call her back, see what she&#39;s up to?-&gt;Hannah]] 
 
-[[Maybe you should call Hannah, see what she&#39;s up to?-&gt;Hannah]] 
 [[You&#39;re too tired right now for a chat.-&gt;Continue 1]] 
+
+[[What time is it in California now, you wonder.-&gt; California]]
 
 (set: $ShowTime = 0)
 (set: $GameDay = 1)
@@ -40,7 +41,7 @@ For some reason, your friend Hannah comes to mind. She always makes fun of the f
 (set: $GotoClara to false)
 (set: $Warning to false)
 (set: $Packed to false)
-(set: $Neighbourly to false)</tw-passagedata><tw-passagedata pid="2" name="Web Search 1" tags="" position="100,650" size="100,100">(if: $verify)[You open several news apps to cross-check the story.] (if: not $verify)[You must know what&#39;s really going on before you can decide what to do. You open the browser on your cell phone, fingers unsteady.] The page loads sluggishly, as if the entire world is trying to do the same thing at once. 
+(set: $Neighbourly to false)</tw-passagedata><tw-passagedata pid="2" name="Web Search 1" tags="" position="750,675" size="100,100">(if: $verify)[You open several news apps to cross-check the story.] (if: not $verify)[You must know what&#39;s really going on before you can decide what to do. You open the browser on your cell phone, fingers unsteady.] The page loads sluggishly, as if the entire world is trying to do the same thing at once. 
 
 Every platform shows the same horrifying images: emergency broadcast banners flashing in urgent reds and yellows, grainy footage looping of the distant, rising cloud, speculation spiraling out of control. Possible nuclear detonation, unconfirmed reports of multiple explosions, fallout concerns spreading across the West Coast. The words blur together.
 
@@ -57,7 +58,7 @@ A government official appears on a livestream, standing stiffly behind a podium,
 (if: $Packed)[[It&#39;s not safe here. You really need to leave now.-&gt;Leave apartment]] 
 
 (set: $verify to true)
-(set: $Overreaction to true)</tw-passagedata><tw-passagedata pid="3" name="Parents 1" tags="" position="1650,575" size="100,100">(set: $parents to true)
+(set: $Overreaction to true)</tw-passagedata><tw-passagedata pid="3" name="Parents 1" tags="" position="2300,600" size="100,100">(set: $parents to true)
 Your parents moved to Ventura when you were still a baby because your father took a job there with an outdoor clothing company. Even though you eventually moved out into the world and ended up here in Berlin, Ventura will always be the place you call home. So many memories of your childhood and youth are linked to this place. You remember the first time your older brother took you surfing. He was always your biggest idol when it came to that. 
 You are suddenly torn from your thoughts when your mother finally answers the phone. “Emma? Honey, are you okay?”
 
@@ -67,7 +68,7 @@ What do you say to her?
 
 [[“Are you safe?”-&gt;Parents 2a]]
 
-[[“Was there really a nuclear blast?”-&gt;Parents 2b]]</tw-passagedata><tw-passagedata pid="4" name="Packing 1a" tags="" position="2025,675" size="100,100">You rush into your bedroom and yank open the curtain hiding the makeshift storage corner. No time to dig through everything, you need to grab what’s essential and go. Your eyes land on two options: the suitcase or the rucksack. The suitcase could hold more, but it would slow you down. The rucksack, though smaller, would keep your hands free and be easier to carry if you had to run.
+[[“Was there really a nuclear blast?”-&gt;Parents 2b]]</tw-passagedata><tw-passagedata pid="4" name="Packing 1a" tags="" position="2675,700" size="100,100">You rush into your bedroom and yank open the curtain hiding the makeshift storage corner. No time to dig through everything, you need to grab what’s essential and go. Your eyes land on two options: the suitcase or the rucksack. The suitcase could hold more, but it would slow you down. The rucksack, though smaller, would keep your hands free and be easier to carry if you had to run.
 
 [[You take the wheeled suitcase.-&gt;Packing 2: Suitcase]]
 
@@ -80,7 +81,7 @@ What do you say to her?
 (set: $RainCape to false)
 (set: $DivingMask to false)
 (set: $SurvivalKnife to false)
-(set: $WinterClothes to false)</tw-passagedata><tw-passagedata pid="5" name="Friends Chat 1" tags="" position="700,650" size="100,100">The group chat is already bursting with a constant stream of messages. You only scroll through:
+(set: $WinterClothes to false)</tw-passagedata><tw-passagedata pid="5" name="Friends Chat 1" tags="" position="1350,675" size="100,100">The group chat is already bursting with a constant stream of messages. You only scroll through:
 
 {
  (live: 3s)[
@@ -182,7 +183,7 @@ The messages keep popping up and the discussion is fraying. You&#39;re not sure 
 (if: not $verify)[[You must know what&#39;s going on. A quick dive into the internet should still be an option.-&gt;Web Search 1]](if: $verify and (visited:&quot;Web Search 2&quot;))[[You continue reading on the Internet. Maybe you&#39;ll find out more.-&gt;Web Search 3]](if: $verify and (visited:&quot;Web Search 3&quot;))[[You continue reading on the Internet. Maybe you&#39;ll find out more.-&gt;Web Search 4]](if: $verify and (visited:&quot;Web Search 4&quot;))[[You continue reading on the Internet. Maybe you&#39;ll find out more.-&gt;Web Search 5]]
 ]
 }
-(set: $friends to true)</tw-passagedata><tw-passagedata pid="6" name="Web Search 2" tags="" position="100,775" size="100,100">You continue searching across news sites and social media, scrolling feverishly as updates flood in faster than you can process them. Every few seconds, a new post contradicts the last. Apparently, the nuclear power plant in Diablo County has been hit by a bomb. Some reports claim it was a conventional explosion; others insist it was nuclear. Some sources cite eyewitnesses, others quote officials who refuse to confirm anything. The speculation is relentless, the panic palpable.
+(set: $friends to true)</tw-passagedata><tw-passagedata pid="6" name="Web Search 2" tags="" position="750,800" size="100,100">You continue searching across news sites and social media, scrolling feverishly as updates flood in faster than you can process them. Every few seconds, a new post contradicts the last. Apparently, the nuclear power plant in Diablo County has been hit by a bomb. Some reports claim it was a conventional explosion; others insist it was nuclear. Some sources cite eyewitnesses, others quote officials who refuse to confirm anything. The speculation is relentless, the panic palpable.
 
 On X, the tweets are coming in so fast that your screen can&#39;t refresh quickly enough. Every major journalist, every self-proclaimed expert, every terrified civilian is posting, reposting, guessing, shouting. And then, suddenly, the platform stops working. A spinning wheel replaces the feed. You refresh. Nothing. Either the servers have crashed under the weight of millions of frantic users, or someone has pulled the plug.
 
@@ -198,7 +199,7 @@ You stare at your screen, a strange numbness creeping in. You just realize that 
 
 (if: not $friends)[[You message your friends to see if they’ve heard the news.-&gt;Friends Chat 1]]
 
-(if: $Packed)[[It&#39;s not safe here. You really need to leave now.-&gt;Leave apartment]] </tw-passagedata><tw-passagedata pid="7" name="Parents 2a" tags="" position="1600,700" size="100,100">“Mom, what’s happening? Are you safe?” you ask with a shaking, foreign voice.
+(if: $Packed)[[It&#39;s not safe here. You really need to leave now.-&gt;Leave apartment]] </tw-passagedata><tw-passagedata pid="7" name="Parents 2a" tags="" position="2250,725" size="100,100">“Mom, what’s happening? Are you safe?” you ask with a shaking, foreign voice.
 
 “We’re fine, sweetheart. For now,” your mom says, her voice tight. “Your father&#39;s already on his way to get a few things. Looks like we&#39;ll have to hide out in the basement for a while. I told him straight away that if he&#39;d finally finished it, like he&#39;s been meaning to do for years, then...&quot; 
 
@@ -207,13 +208,13 @@ She continues with her usual tongue-in-cheek rant about your father.
 [[You cut her off.-&gt;Cut her off]]
 
 [[You wait for your turn.-&gt;Let her speak]]
-</tw-passagedata><tw-passagedata pid="8" name="Friends Chat 2" tags="" position="700,775" size="100,100">You don&#39;t just want to remain silent. Even if it&#39;s just to show that you&#39;re there. After all, these are your friends. You&#39;ve spent the entire last year together and you see at least one of them almost every day. But what do you want to write?
+</tw-passagedata><tw-passagedata pid="8" name="Friends Chat 2" tags="" position="1350,800" size="100,100">You don&#39;t just want to remain silent. Even if it&#39;s just to show that you&#39;re there. After all, these are your friends. You&#39;ve spent the entire last year together and you see at least one of them almost every day. But what do you want to write?
 
 [[&quot;@Clara: I&#39;m on my way too!&quot;-&gt;Friends Chat 3a]]
 
 [[&quot;@Massimo: Why do you think we should stay at home no matter what?&quot;-&gt;Friends Chat 3b]]
 
-[[&quot;@Jamal: I don&#39;t quite understand what&#39;s going on either. Can someone please enlighten us?&quot;-&gt;Friends Chat 3c]]</tw-passagedata><tw-passagedata pid="9" name="Web Search 3" tags="" position="100,900" size="100,100">You search the net for information on what to do in the event of a nuclear attack. It&#39;s not that easy to get real facts on this subject. A lot of information dates back to the 1980s. Some commentators on the web justify this by saying that in the event of a global nuclear war, it doesn&#39;t matter what we do anyway - because humanity will inevitably perish. 
+[[&quot;@Jamal: I don&#39;t quite understand what&#39;s going on either. Can someone please enlighten us?&quot;-&gt;Friends Chat 3c]]</tw-passagedata><tw-passagedata pid="9" name="Web Search 3" tags="" position="750,925" size="100,100">You search the net for information on what to do in the event of a nuclear attack. It&#39;s not that easy to get real facts on this subject. A lot of information dates back to the 1980s. Some commentators on the web justify this by saying that in the event of a global nuclear war, it doesn&#39;t matter what we do anyway - because humanity will inevitably perish. 
 At least you can find some useful information on the website of the U.S. Federal Emergency Agency. The instructions are as follows: 
 
 GET INSIDE
@@ -233,7 +234,7 @@ So you shouldn&#39;t be outside when the bomb goes off, and if you are, you shou
 (if: not $friends)[[You message your friends to see if they’ve heard the news.-&gt;Friends Chat 1]]
  
 (set: $WinterIsComing to true)
-(set: $DontForgetYourRadio to true)</tw-passagedata><tw-passagedata pid="10" name="Friends Chat 3c" tags="" position="1100,900" size="100,100">You write in the chat:
+(set: $DontForgetYourRadio to true)</tw-passagedata><tw-passagedata pid="10" name="Friends Chat 3c" tags="" position="1750,925" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -333,7 +334,7 @@ What are you going to do?
 &lt;br&gt;
 [[You must know what&#39;s going on. A quick dive into the internet should still be an option.-&gt;Web Search 1]]
 ]
-}</tw-passagedata><tw-passagedata pid="11" name="Friends Chat 3a" tags="" position="400,900" size="100,100">You write in the chat:
+}</tw-passagedata><tw-passagedata pid="11" name="Friends Chat 3a" tags="" position="1050,925" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -369,7 +370,7 @@ Now that you&#39;ve sorted that out, you can move on to other things.
 &lt;br&gt;
 (if: not $verify)[[You must know what&#39;s really going on. A quick dive into the internet should still be an option.-&gt;Web Search 1]]
 ]}
-(set: $GotoClara to true)</tw-passagedata><tw-passagedata pid="12" name="Friends Chat 3b" tags="" position="700,900" size="100,100">You write in the chat:
+(set: $GotoClara to true)</tw-passagedata><tw-passagedata pid="12" name="Friends Chat 3b" tags="" position="1350,925" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -406,7 +407,7 @@ Your breath hitches for a few seconds as you think about what you should answer 
 &lt;br&gt;
 [[&quot;You&#39;re out of your mind!&quot;-&gt;Massimo 3]]
 &lt;br&gt;
-]}</tw-passagedata><tw-passagedata pid="13" name="Web Search 4" tags="" position="100,1025" size="100,100">&#39;But what about Berlin? Will it be bombed too?&#39;, you wonder. 
+]}</tw-passagedata><tw-passagedata pid="13" name="Web Search 4" tags="" position="750,1050" size="100,100">&#39;But what about Berlin? Will it be bombed too?&#39;, you wonder. 
 You glance at the clock on your cell phone. Damn, you&#39;ve been sitting here idly surfing the internet for over half an hour! You get up from the sofa and walk to the window. There are lots of people outside. Some are running, others are speeding down the road on cars, motorcycles or whatever else they have. You realize that you might be wasting precious time if you stay here and do nothing.
 
 [[Whatever, you need to know whether Berlin will be attacked as well.-&gt;Web Search 5]]
@@ -415,7 +416,7 @@ You glance at the clock on your cell phone. Damn, you&#39;ve been sitting here i
 
 (if: not $Packed)[[You immediately start packing. This is real.-&gt;Packing 1a]](if: $Packed)[[Leave your apartment now.-&gt;Leave apartment]]
 
-(if: not $friends)[[You message your friends to see if they’ve heard the news.-&gt;Friends Chat 1]]</tw-passagedata><tw-passagedata pid="14" name="Web Search 5" tags="" position="100,1150" size="100,100">It is really difficult to get information about such a hypothetical case in a hurry. After trawling through some conversations on reddit forums, you finally find a reputable newspaper article that you translate from German. It says that even if a nuclear war is likely to take place between the superpowers USA and Russia, Europe and Germany are by no means safe. The enemy will try to disable the missiles stationed in Germany before they are fired. And they will be out to incapacitate the European governments. So if this really is the start of a nuclear war, it should only be a matter of time before a bomb strikes here.
+(if: not $friends)[[You message your friends to see if they’ve heard the news.-&gt;Friends Chat 1]]</tw-passagedata><tw-passagedata pid="14" name="Web Search 5" tags="" position="750,1175" size="100,100">It is really difficult to get information about such a hypothetical case in a hurry. After trawling through some conversations on reddit forums, you finally find a reputable newspaper article that you translate from German. It says that even if a nuclear war is likely to take place between the superpowers USA and Russia, Europe and Germany are by no means safe. The enemy will try to disable the missiles stationed in Germany before they are fired. And they will be out to incapacitate the European governments. So if this really is the start of a nuclear war, it should only be a matter of time before a bomb strikes here.
 
 What do you want to do?
 
@@ -425,7 +426,7 @@ What do you want to do?
 
 (if: not $friends)[[You message your friends to see if they’ve heard the news.-&gt;Friends Chat 1]]
 (if: $packed)[[I just can&#39;t leave this place.-&gt;Stick Around]] 
-(set: $Warning to true)</tw-passagedata><tw-passagedata pid="15" name="Packing 2: Rucksack" tags="" position="1975,800" size="100,100">It&#39;s summer, and Berlin has been under a heat wave for weeks. (if: $WinterIsComing)[But you remember what you read on the internet earlier about nuclear winter. Even if it seems absurd at over 30° Celsius, you pack your thickest winter pullover. Plus thick woollen socks, hat and scarf, as if you were about to go on a winter vacation. You don&#39;t know why, but a deep wave of sadness overcomes you. You try to shake it off and carry on packing.](else:)[You probably won&#39;t need all these thick clothes. Lucky me, you think, otherwise the rucksack would have filled up quickly. A thin jacket for cooler evenings should be enough. You also pack underwear, socks, pants and a number of shirts.] 
+(set: $Warning to true)</tw-passagedata><tw-passagedata pid="15" name="Packing 2: Rucksack" tags="" position="2625,825" size="100,100">It&#39;s summer, and Berlin has been under a heat wave for weeks. (if: $WinterIsComing)[But you remember what you read on the internet earlier about nuclear winter. Even if it seems absurd at over 30° Celsius, you pack your thickest winter pullover. Plus thick woollen socks, hat and scarf, as if you were about to go on a winter vacation. You don&#39;t know why, but a deep wave of sadness overcomes you. You try to shake it off and carry on packing.](else:)[You probably won&#39;t need all these thick clothes. Lucky me, you think, otherwise the rucksack would have filled up quickly. A thin jacket for cooler evenings should be enough. You also pack underwear, socks, pants and a number of shirts.] 
 
 Your rucksack is almost full. Now there&#39;s only room for a few more items. What else do you want to take with you?
 
@@ -438,7 +439,7 @@ Your rucksack is almost full. Now there&#39;s only room for a few more items. Wh
 (if: not $WinterIsComing)[[Or do you need something warm to wear, after all?-&gt;Rucksack WarmClothes]]
 (set: $ItemRucksack to 0)
 (if: $WinterIsComing)[(set: $ItemRucksack to it+2)]
-(if: $WinterIsComing)[(set: $WinterClothes to true)]</tw-passagedata><tw-passagedata pid="16" name="Packing 2: Suitcase" tags="" position="2100,800" size="100,100">It&#39;s summer, and Berlin has been under a heat wave for weeks. (if: $WinterIsComing)[But you remember what you read on the internet earlier about nuclear winter. Even if it seems absurd at over 30° Celsius, you pack your thickest winter pullover. Plus thick woollen socks, hat and scarf, as if you were about to go on a winter vacation. You don&#39;t know why, but a deep wave of sadness overcomes you. You try to shake it off and carry on packing.](else:)[You probably won&#39;t need all these thick clothes. Lucky me, you think, otherwise the suitcase would have filled up quickly. A thin jacket for cooler evenings should be enough. You also pack underwear, socks, pants and a number of shirts.] 
+(if: $WinterIsComing)[(set: $WinterClothes to true)]</tw-passagedata><tw-passagedata pid="16" name="Packing 2: Suitcase" tags="" position="2750,825" size="100,100">It&#39;s summer, and Berlin has been under a heat wave for weeks. (if: $WinterIsComing)[But you remember what you read on the internet earlier about nuclear winter. Even if it seems absurd at over 30° Celsius, you pack your thickest winter pullover. Plus thick woollen socks, hat and scarf, as if you were about to go on a winter vacation. You don&#39;t know why, but a deep wave of sadness overcomes you. You try to shake it off and carry on packing.](else:)[You probably won&#39;t need all these thick clothes. Lucky me, you think, otherwise the suitcase would have filled up quickly. A thin jacket for cooler evenings should be enough. You also pack underwear, socks, pants and a number of shirts.] 
 
 There&#39;s room for some more items. What else do you want to take with you?
 
@@ -450,7 +451,7 @@ There&#39;s room for some more items. What else do you want to take with you?
 (if: $DontForgetYourRadio)[[Your crank radio-&gt;Suitcase Crank Radio]]
 (if: not $WinterIsComing)[[Or do you need something warm to wear, after all?-&gt;Suitcase WarmClothes]]
 (set: $ItemSuitcase to 0)
-(if: $WinterIsComing)[(set: $ItemRucksack to it+2)]</tw-passagedata><tw-passagedata pid="17" name="Swipe 1" tags="" position="700,475" size="100,100">(if: $mealtime &lt;1)[Automatically, you start swiping through your TikTok feed.](if: $mealtime &gt;0)[You start swiping through your TikTok feed.] The first clip loads: a bright, cheerful kitchen, soft lo-fi music playing in the background. A girl, all manicured nails and endeavoring charm, smiles at the camera. &quot;I feel like it&#39;s time to post my signature salad again!&quot; she announces, her voice upbeat. She tosses a handful of glistening cherry tomatoes and other veggies into a glass bowl. The next cut shows a creamy dressing drizzling in slow motion, clinging to crisp romaine leaves. A sprinkle of toasted nuts follows, then crumbles of feta, perfectly uneven.
+(if: $WinterIsComing)[(set: $ItemRucksack to it+2)]</tw-passagedata><tw-passagedata pid="17" name="Swipe 1" tags="" position="1350,500" size="100,100">(if: $mealtime &lt;1)[Automatically, you start swiping through your TikTok feed.](if: $mealtime &gt;0)[You start swiping through your TikTok feed.] The first clip loads: a bright, cheerful kitchen, soft lo-fi music playing in the background. A girl, all manicured nails and endeavoring charm, smiles at the camera. &quot;I feel like it&#39;s time to post my signature salad again!&quot; she announces, her voice upbeat. She tosses a handful of glistening cherry tomatoes and other veggies into a glass bowl. The next cut shows a creamy dressing drizzling in slow motion, clinging to crisp romaine leaves. A sprinkle of toasted nuts follows, then crumbles of feta, perfectly uneven.
 
 Your stomach tightens. That does look pretty good. It reminds you of how hungry you are. Maybe you should have grabbed something on the way home. Or maybe you should just stop watching food videos on an empty stomach. (if: $mealtime &gt;0)[Good thing your food is just getting warm.]
 
@@ -461,14 +462,14 @@ Your stomach tightens. That does look pretty good. It reminds you of how hungry 
 (if: $Mealtime &gt;0)[[You check how your food is doing.-&gt;Meal Check]]
 (set: $TikTok to it+1)
 
-</tw-passagedata><tw-passagedata pid="18" name="Meal Time" tags="" position="850,325" size="100,100">You turn on the stove and stir through the chana masala, the thick sauce bubbling softly as its warm, spicy aroma fills the room. The faint traces of turmeric have already stained the wooden spoon because it is not the first time you have cooked this dish. It makes you think of Madhu, his confident movements in the kitchen, the way he laughed when you fumbled with the spices, mispronouncing their names. You had begged him to make a “real” Indian curry, something authentic, something that tasted like home to him. He had insisted that pre-ground garam masala was nothing compared to the fresh blend he crushed himself, and you remember watching in fascination as he worked, the pestle grinding against the mortar with rhythmic precision. That was the night before he left, the last time you saw him in person. 
+</tw-passagedata><tw-passagedata pid="18" name="Meal Time" tags="" position="1500,350" size="100,100">You turn on the stove and stir through the chana masala, the thick sauce bubbling softly as its warm, spicy aroma fills the room. It makes you think of Madhu, his confident movements in the kitchen, the way he laughed when you fumbled with the spices, mispronouncing their names. You had begged him to make a “real” Indian curry, something authentic, something that tasted like home to him. He had insisted that pre-ground garam masala was nothing compared to the fresh blend he crushed himself, and you remember watching in fascination as he worked, the pestle grinding against the mortar with rhythmic precision. That was the night before he left, the last time you saw him in person. 
 
 You promised you’d visit him in Delhi one day, once you’d finally finished your master’s degree. Back then, it felt like a distant, inevitable future, as certain as anything else in life. Now, standing in your dimly lit Berlin kitchen, stirring the chana masala alone, you wonder when “one day” started feeling so uncertain.
 
 [[Why not search for a flight to Delhi while you wait?-&gt;Delhi]]
 
 (if: $TikTok is 0)[[While the food is heating up, you check what&#39;s going on at TikTok.-&gt;Swipe 1]](if: $TikTok is 1)[[While the food is heating up, you continue on TikTok.-&gt;Swipe 2]](if: $TikTok is 2)[[While the food is heating up, you continue on TikTok.-&gt;Swipe 3]](if: $TikTok is 3)[[While the food is heating up, you continue on TikTok.-&gt;Swipe 4]]
-(set: $Mealtime to it+1)</tw-passagedata><tw-passagedata pid="19" name="Swipe 2" tags="" position="850,475" size="100,100">The next video loads with a jittery blur, and for a second, you think it&#39;s just another low-quality clip of a wildfire - those seem to pop up every summer. But as the image sharpens, you realize the scene is different. A massive column of smoke rises against a pale morning sky, thick and dark, billowing upward in slow, ominous waves. The camera shakes, and in the background, a muffled voice mutters something unintelligible.
+(set: $Mealtime to it+1)</tw-passagedata><tw-passagedata pid="19" name="Swipe 2" tags="" position="1500,500" size="100,100">The next video loads with a jittery blur, and for a second, you think it&#39;s just another low-quality clip of a wildfire - those seem to pop up every summer. But as the image sharpens, you realize the scene is different. A massive column of smoke rises against a pale morning sky, thick and dark, billowing upward in slow, ominous waves. The camera shakes, and in the background, a muffled voice mutters something unintelligible.
 
 Your eyes flick to the caption. &quot;Califronia disater&quot;. Misspelled, hastily typed. No hashtags, no explanation.
 
@@ -478,7 +479,7 @@ You pause, thumb hovering over the screen. What’s going on over there again? A
 
 (if: $Mealtime &lt;1)[[It&#39;s time to eat something.-&gt;Meal Time]](if: $Mealtime &gt;0)[[You check how your food is doing.-&gt;Meal Check]]
 (set: $TikTok to it+1)
-</tw-passagedata><tw-passagedata pid="20" name="Swipe 3" tags="" position="1000,475" size="100,100">The next video pops up, and you see four police officers standing stiffly in a row, arranged by height, hands clasped in front of them like they’re posing for some kind of official photo. Their uniforms are crisp, their expressions grim. Then, without warning, the officer at the front - shortest of the bunch - jerks his elbows up and flaps them like wings. You blink. It takes a second for your brain to register what’s happening. The Chicken Dance.
+</tw-passagedata><tw-passagedata pid="20" name="Swipe 3" tags="" position="1650,500" size="100,100">The next video pops up, and you see four police officers standing stiffly in a row, arranged by height, hands clasped in front of them like they’re posing for some kind of official photo. Their uniforms are crisp, their expressions grim. Then, without warning, the officer at the front - shortest of the bunch - jerks his elbows up and flaps them like wings. You blink. It takes a second for your brain to register what’s happening. The Chicken Dance.
 
 As if on cue, the second officer in line joins in, flapping his arms in sync. The third follows, then the fourth, their movements cascading down the line like a living game of dominoes. By the time they reach the thigh-slapping part, the tallest officer in the back is barely holding it together.
 
@@ -487,7 +488,7 @@ The camera shakes, likely from whoever’s filming trying not to lose it. A comm
 [[You swipe to the next clip.-&gt;Swipe 4]] 
 
 (if: $Mealtime &lt;1)[[It&#39;s time to eat something.-&gt;Meal Time]](if: $Mealtime &gt;0)[[You check how your food is doing.-&gt;Meal Check]]
-(set: $TikTok to it+1)</tw-passagedata><tw-passagedata pid="21" name="Swipe 4" tags="" position="1150,475" size="100,100">The next clip starts mid-motion, the camera jerking as if the person filming just whipped out their phone in a panic. The angle is unsteady, catching a sliver of grassy hillside before tilting up - way up - toward the sky.
+(set: $TikTok to it+1)</tw-passagedata><tw-passagedata pid="21" name="Swipe 4" tags="" position="1800,500" size="100,100">The next clip starts mid-motion, the camera jerking as if the person filming just whipped out their phone in a panic. The angle is unsteady, catching a sliver of grassy hillside before tilting up - way up - toward the sky.
 
 And that’s when you see it.
 
@@ -511,7 +512,7 @@ What are you going to do?
 
 [[You swipe to the next clip, maybe there&#39;s more.-&gt;Swipe 5]]
 
-(if: not $Overreaction)[[You immediately start packing. This is real.-&gt;Packing 1b]](if: $Overreaction)[[You immediately start packing. This is real.-&gt;Packing 1a]]</tw-passagedata><tw-passagedata pid="22" name="Swipe 5" tags="" position="1300,475" size="100,100">The next clip seems to be filmed from a quiet, rural farm somewhere in the Midwest. Endless fields stretching toward the horizon, the sky still carrying the soft hues of early morning or late afternoon. For a few seconds, nothing happens. Then, without warning, the ground in the distance erupts. A massive rocket, sleek and ominous, surges upward in a column of fire and smoke. The camera shakes violently as a thunderous roar fills the air, drowning out everything else.
+(if: not $Overreaction)[[You immediately start packing. This is real.-&gt;Packing 1b]](if: $Overreaction)[[You immediately start packing. This is real.-&gt;Packing 1a]]</tw-passagedata><tw-passagedata pid="22" name="Swipe 5" tags="" position="1950,500" size="100,100">The next clip seems to be filmed from a quiet, rural farm somewhere in the Midwest. Endless fields stretching toward the horizon, the sky still carrying the soft hues of early morning or late afternoon. For a few seconds, nothing happens. Then, without warning, the ground in the distance erupts. A massive rocket, sleek and ominous, surges upward in a column of fire and smoke. The camera shakes violently as a thunderous roar fills the air, drowning out everything else.
 
 Panicked voices shout in the background, a mix of fear, disbelief, and frantic speculation. “Oh my God,” someone cries. The person holding the phone stumbles backward, their breath ragged, the frame tilting wildly before refocusing on the missile as it pierces through the clouds.
 
@@ -523,13 +524,13 @@ The caption below is unsettlingly simple: &quot;&#39;&#39;Is that it? #Atomic Wa
 
 [[You swipe to the next clip.-&gt;Swipe 6]]
 
-(if: not $Overreaction)[[You immediately start packing. This is real.-&gt;Packing 1b]](if: $Overreaction)[[You immediately start packing. This is real.-&gt;Packing 1a]]</tw-passagedata><tw-passagedata pid="23" name="Swipe 6" tags="" position="1450,475" size="100,100">You swipe again, hoping to get some silly dancing video or a cat with a pineapple helmet. But there are more videos of starting rockets. Or reaction videos to those videos. People are really freaked out. (if: $Mealtime &gt;0)[Suddenly, a burnt smell hits your nose, making you look up from your cell phone. Your food! You hastily take it off the stove and think about what you want to do now. You&#39;ve certainly lost your appetite.] (if: $Mealtime &lt;1)[And you feel like if you keep sitting here watching these videos, you&#39;re going to freak out, too.] 
+(if: not $Overreaction)[[You immediately start packing. This is real.-&gt;Packing 1b]](if: $Overreaction)[[You immediately start packing. This is real.-&gt;Packing 1a]]</tw-passagedata><tw-passagedata pid="23" name="Swipe 6" tags="" position="2100,500" size="100,100">You swipe again, hoping to get some silly dancing video or a cat with a pineapple helmet. But there are more videos of starting rockets. Or reaction videos to those videos. People are really freaked out. (if: $Mealtime &gt;0)[Suddenly, a burnt smell hits your nose, making you look up from your cell phone. Your food! You hastily take it off the stove and think about what you want to do now. You&#39;ve certainly lost your appetite.] (if: $Mealtime &lt;1)[And you feel like if you keep sitting here watching these videos, you&#39;re going to freak out, too.] 
 
 [[You take a deep breath and try to verify the news. Maybe it&#39;s a hoax.-&gt;Web Search 1]]
 
 [[You call your parents to find out if they’re safe.-&gt;Parents 1]]
 
-(if: not $Overreaction)[[You immediately start packing. This is real.-&gt;Packing 1b]](if: $Overreaction)[[You immediately start packing. This is real.-&gt;Packing 1a]]</tw-passagedata><tw-passagedata pid="24" name="Massimo 1" tags="" position="575,1025" size="100,100">You write in the chat:
+(if: not $Overreaction)[[You immediately start packing. This is real.-&gt;Packing 1b]](if: $Overreaction)[[You immediately start packing. This is real.-&gt;Packing 1a]]</tw-passagedata><tw-passagedata pid="24" name="Massimo 1" tags="" position="1225,1050" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -605,7 +606,7 @@ What are you going to do?
 &lt;br&gt;
 (if: not $verify)[[You must know what&#39;s going on. A quick dive into the internet should still be an option.-&gt;Web Search 1]](if: $verify and (visited:&quot;Web Search 2&quot;))[[You continue reading on the Internet. Maybe you&#39;ll find out more.-&gt;Web Search 3]](if: $verify and (visited:&quot;Web Search 3&quot;))[[You continue reading on the Internet. Maybe you&#39;ll find out more.-&gt;Web Search 4]](if: $verify and (visited:&quot;Web Search 4&quot;))[[You continue reading on the Internet. Maybe you&#39;ll find out more.-&gt;Web Search 5]]
 ]
-}</tw-passagedata><tw-passagedata pid="25" name="Massimo 3" tags="" position="825,1025" size="100,100">You write in the chat:
+}</tw-passagedata><tw-passagedata pid="25" name="Massimo 3" tags="" position="1475,1050" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -642,14 +643,14 @@ How do you respond?
 &lt;br&gt;
 [[&quot;When will it hit?&quot;-&gt;Massimo 3c]]
 &lt;br&gt;
-]}</tw-passagedata><tw-passagedata pid="26" name="Chapter 2: Sudden Impact" tags="" position="3700,200" size="100,100">You&#39;re finally outside and looking down the road. A few people are hurrying along the sidewalk, most of them in the direction of Müllerstraße. Every few seconds a car drives past. Quite a lot going on. You see a family standing around a car parked in front of your house. You&#39;ve seen them here before, they live here somewhere. They are hurriedly loading up their car with all sorts of bags, equipment and supplies. With your (if: $ItemRucksack &gt;0)[rucksack on your back] (if:$ItemSuitcase &gt;0)[suitcase standing beside you] and all your things packed, you only now realize that you don&#39;t really know what to do next. Where do you go?
+]}</tw-passagedata><tw-passagedata pid="26" name="Chapter 2: Sudden Impact" tags="" position="4350,225" size="100,100">You&#39;re finally outside and looking down the road. A few people are hurrying along the sidewalk, most of them in the direction of Müllerstraße. Every few seconds a car drives past. Quite a lot going on. You see a family standing around a car parked in front of your house. You&#39;ve seen them here before, they live here somewhere. They are hurriedly loading up their car with all sorts of bags, equipment and supplies. With your (if: $ItemRucksack &gt;0)[rucksack on your back] (if:$ItemSuitcase &gt;0)[suitcase standing beside you] and all your things packed, you only now realize that you don&#39;t really know what to do next. Where do you go?
 
 [[You go over to the family and talk to them.-&gt;Family]]
 
 (if: $GotoClara)[[You told Clara you would go to her place. -&gt;Mobility]]
 
 [[You want to go somewhere else.-&gt;Where to go?]]
-</tw-passagedata><tw-passagedata pid="27" name="Family" tags="" position="3300,400" size="100,100">:: Start
+</tw-passagedata><tw-passagedata pid="27" name="Family" tags="" position="3950,425" size="100,100">:: Start
 (set: $FamilyHelp to false)
 (set: $FamilyHeaded to false)
 (set: $FamilyRide to false)
@@ -657,13 +658,13 @@ You walk towards the family, a man and a woman with a little daughter and an eve
 
 [[You ask if they need help.-&gt;Help]]
 [[You ask where they are headed.-&gt;Headed]]
-[[You ask them for a ride.-&gt;Ride]]</tw-passagedata><tw-passagedata pid="28" name="Mobility" tags="" position="4400,400" size="100,100">Cora lives in a beautiful loft on Märkisches Ufer, directly on the Spreekanal in Mitte. It&#39;s not too far away, maybe 6-7 kilometers, depending on which route you take. The quickest way would certainly be by car, if everything went smoothly. Though you don&#39;t own one, you could easily rent one nearby. The subway would also be a quick option. Most of the time, however, you would ride your bike to Cora. It&#39;s slower, but you could choose your route more freely. (if: $Suitcase &gt;0)[But that could prove problematic because you have this suitcase with you.] What do you want to do?
+[[You ask them for a ride.-&gt;Ride]]</tw-passagedata><tw-passagedata pid="28" name="Mobility" tags="" position="5050,425" size="100,100">Cora lives in a beautiful loft on Märkisches Ufer, directly on the Spreekanal in Mitte. It&#39;s not too far away, maybe 6-7 kilometers, depending on which route you take. The quickest way would certainly be by car, if everything went smoothly. Though you don&#39;t own one, you could easily rent one nearby. The subway would also be a quick option. Most of the time, however, you would ride your bike to Cora. It&#39;s slower, but you could choose your route more freely. (if: $Suitcase &gt;0)[But that could prove problematic because you have this suitcase with you.] What do you want to do?
 
 [[I&#39;ll get a car.-&gt;Car]]
 [[I&#39;ll take the subway.-&gt;Subway]]
 (if: $Rucksack &gt;0)[[I&#39;ll go by bike.-&gt;Bike]]
 (if: $Suitcase &gt;0)[[I&#39;ll go by bike anyway.-&gt;No Bike For You]]
-</tw-passagedata><tw-passagedata pid="29" name="Where to go?" tags="" position="3700,400" size="100,100"></tw-passagedata><tw-passagedata pid="30" name="Massimo 2" tags="" position="700,1025" size="100,100">You write in the chat:
+</tw-passagedata><tw-passagedata pid="29" name="Where to go?" tags="" position="4350,425" size="100,100"></tw-passagedata><tw-passagedata pid="30" name="Massimo 2" tags="" position="1350,1050" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -718,7 +719,7 @@ You&#39;re not sure what to do now.
 [[You immediately start packing.-&gt;Packing 1a]] 
 &lt;br&gt;
 (if: not $verify)[[You want to know what&#39;s going on. A quick dive into the internet should still be an option.-&gt;Web Search 1]]
-]}</tw-passagedata><tw-passagedata pid="31" name="Massimo 3a" tags="" position="575,1150" size="100,100">You write in the chat:
+]}</tw-passagedata><tw-passagedata pid="31" name="Massimo 3a" tags="" position="1225,1175" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -761,7 +762,7 @@ You feel like someone hit you over the head with a club. How do you react?
 &lt;br&gt;
 [[You don&#39;t want to continue this conversation.-&gt;WhatsNext]]
 ]}
-(set: $MassimoWarning to true)</tw-passagedata><tw-passagedata pid="32" name="Massimo 3b" tags="" position="700,1150" size="100,100">You write in the chat:
+(set: $MassimoWarning to true)</tw-passagedata><tw-passagedata pid="32" name="Massimo 3b" tags="" position="1350,1175" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -804,7 +805,7 @@ You feel like someone hit you over the head with a club. How do you react?
 &lt;br&gt;
 [[You don&#39;t want to continue this conversation.-&gt;WhatsNext]]
 ]}
-(set: $MassimoWarning to true)</tw-passagedata><tw-passagedata pid="33" name="Massimo 3c" tags="" position="825,1150" size="100,100">You write in the chat:
+(set: $MassimoWarning to true)</tw-passagedata><tw-passagedata pid="33" name="Massimo 3c" tags="" position="1475,1175" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -867,7 +868,7 @@ How do you respond?
 &lt;br&gt;
 [[You don&#39;t want to continue this conversation.-&gt;WhatsNext]]
 ]}
-(set: $MassimoWarning to true)</tw-passagedata><tw-passagedata pid="34" name="NoClara" tags="" position="400,1050" size="100,100">You write in the chat:
+(set: $MassimoWarning to true)</tw-passagedata><tw-passagedata pid="34" name="NoClara" tags="" position="1050,1075" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -912,13 +913,13 @@ You&#39;re not sure how you want to react.
 &lt;br&gt;
 (if: not $parents)[ [[You call your parents to find out if they’re safe.-&gt;Parents 1]]]
 ]}
-(set: $GotoClara to false)</tw-passagedata><tw-passagedata pid="35" name="WhatsNext" tags="" position="1100,1500" size="100,100">You&#39;ve been spending a lot of time chatting while the world is obviously about to end. Now there are some important things to do.
+(set: $GotoClara to false)</tw-passagedata><tw-passagedata pid="35" name="WhatsNext" tags="" position="1750,1525" size="100,100">You&#39;ve been spending a lot of time chatting while the world is obviously about to end. Now there are some important things to do.
 
 (if: not $parents)[[You call your parents to find out if they’re safe.-&gt;Parents 1]]
 &lt;br&gt;
 [[You immediately start packing.-&gt;Packing 1a]] 
 &lt;br&gt;
-(if: not $verify)[[You must know what&#39;s going on. A quick dive into the internet should still be an option.-&gt;Web Search 1]]</tw-passagedata><tw-passagedata pid="36" name="Massimo 3d" tags="" position="700,1275" size="100,100">You write in the chat:
+(if: not $verify)[[You must know what&#39;s going on. A quick dive into the internet should still be an option.-&gt;Web Search 1]]</tw-passagedata><tw-passagedata pid="36" name="Massimo 3d" tags="" position="1350,1300" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -947,7 +948,7 @@ You&#39;re still waiting. You are wasting your time here. What do you want to do
 &lt;br&gt;
 [[You figure out what is best for your own safety.-&gt;WhatsNext]]
 ]}
-</tw-passagedata><tw-passagedata pid="37" name="Massimo 3e" tags="" position="825,1275" size="100,100">You write in the chat:
+</tw-passagedata><tw-passagedata pid="37" name="Massimo 3e" tags="" position="1475,1300" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -975,7 +976,7 @@ You&#39;re still waiting. You are wasting your time here. What do you want to do
 [[You keep waiting for Massimo to answer.-&gt;Massimo 3h]]
 &lt;br&gt;
 [[You figure out what is best for your own safety.-&gt;WhatsNext]]
-]}</tw-passagedata><tw-passagedata pid="38" name="Parents 3" tags="" position="1650,950" size="100,100">You write a short message via Facebook Messenger because you know Mom prefers it: 
+]}</tw-passagedata><tw-passagedata pid="38" name="Parents 3" tags="" position="2300,975" size="100,100">You write a short message via Facebook Messenger because you know Mom prefers it: 
 {
 &lt;br&gt;
  (live: 3s)[
@@ -1001,7 +1002,7 @@ Mom, are you okay?]
 &lt;br&gt;
 (if: not $friends)[[You message your friends to see if they’ve heard the news.-&gt;Friends Chat 1]]
 ]
-}</tw-passagedata><tw-passagedata pid="39" name="Parents 2b" tags="" position="1725,700" size="100,100">“Mom, what’s happening? Was there really a nuclear blast?” you ask with a shaking, foreign voice.
+}</tw-passagedata><tw-passagedata pid="39" name="Parents 2b" tags="" position="2375,725" size="100,100">“Mom, what’s happening? Was there really a nuclear blast?” you ask with a shaking, foreign voice.
 
 “Apparently there was. But we’re fine, sweetheart. For now,” your mom says, her voice tight. “Your father&#39;s already on his way to get a few things. Looks like we&#39;ll have to hide out in the basement for a while. I told him straight away that if he&#39;d finally finished it, like he&#39;s been meaning to do for years, then...&quot; 
 
@@ -1009,7 +1010,7 @@ She continues with her usual tongue-in-cheek rant about your father.
 
 [[You cut her off.-&gt;Cut her off]]
 
-[[You wait for your turn.-&gt;Let her speak]]</tw-passagedata><tw-passagedata pid="40" name="Massimo 3f" tags="" position="575,1275" size="100,100">You write in the chat:
+[[You wait for your turn.-&gt;Let her speak]]</tw-passagedata><tw-passagedata pid="40" name="Massimo 3f" tags="" position="1225,1300" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -1049,7 +1050,7 @@ What are you going to do?
 [[You figure out what is best for your own safety.-&gt;WhatsNext]]
 (set: $TooClose to true)
 ]
-}</tw-passagedata><tw-passagedata pid="41" name="Massimo 3g" tags="" position="575,1400" size="100,100">You write in the chat:
+}</tw-passagedata><tw-passagedata pid="41" name="Massimo 3g" tags="" position="1225,1425" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -1077,13 +1078,13 @@ You&#39;re still waiting. You are wasting your time here. What do you want to do
 [[You keep waiting for Massimo to answer.-&gt;Massimo 3h]]
 &lt;br&gt;
 [[You figure out what is best for your own safety.-&gt;WhatsNext]]
-]}</tw-passagedata><tw-passagedata pid="42" name="Friends Chat 4" tags="" position="1350,900" size="100,100">You go back into the group chat, where the messages are flooding in. You skim through them, mostly about what things are useful in this situation and who could bring what. No one seems to realize the danger they are in if they go there. 
+]}</tw-passagedata><tw-passagedata pid="42" name="Friends Chat 4" tags="" position="2000,925" size="100,100">You go back into the group chat, where the messages are flooding in. You skim through them, mostly about what things are useful in this situation and who could bring what. No one seems to realize the danger they are in if they go there. 
 
 What do you want to write to your friends?
 
 [[&quot;It&#39;s not safe at Clara&#39;s!&quot;-&gt;Warning 1]]
 [[&quot;You&#39;re all gonna die there!&quot;-&gt;Warning 2]]
-[[&quot;DON&#39;T GO TO CLARA!!! DANGER!!!&quot;-&gt;Warning 3]]</tw-passagedata><tw-passagedata pid="43" name="Massimo 3h" tags="" position="800,1450" size="100,100">You write in the chat:
+[[&quot;DON&#39;T GO TO CLARA!!! DANGER!!!&quot;-&gt;Warning 3]]</tw-passagedata><tw-passagedata pid="43" name="Massimo 3h" tags="" position="1450,1475" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -1106,7 +1107,7 @@ No answer. He&#39;s gone. What do you want to do?
 [[You keep waiting for Massimo to answer.-&gt;Massimo 3h]]
 &lt;br&gt;
 [[You figure out what is best for your own safety.-&gt;WhatsNext]]
-]}</tw-passagedata><tw-passagedata pid="44" name="Warning 1" tags="" position="1225,1025" size="100,100">You write in the chat.
+]}</tw-passagedata><tw-passagedata pid="44" name="Warning 1" tags="" position="1875,1050" size="100,100">You write in the chat.
 {
  (live: 2s)[
     (stop:)
@@ -1186,7 +1187,7 @@ Nobody reacts to your message. What are you going to do?
 [[You call Clara directly on her phone.-&gt;ClaraPhone]]
 &lt;br&gt;
 [[You figure out what is best for your own safety.-&gt;WhatsNext]]
-]}</tw-passagedata><tw-passagedata pid="45" name="Warning 2" tags="" position="1350,1025" size="100,100">You write in the chat.
+]}</tw-passagedata><tw-passagedata pid="45" name="Warning 2" tags="" position="2000,1050" size="100,100">You write in the chat.
 {
  (live: 2s)[
     (stop:)
@@ -1266,7 +1267,7 @@ Nobody reacts to your message. What are you going to do?
 [[You call Clara directly on her phone.-&gt;ClaraPhone]]
 &lt;br&gt;
 [[You figure out what is best for your own safety.-&gt;WhatsNext]]
-]}</tw-passagedata><tw-passagedata pid="46" name="Warning 3" tags="" position="1475,1025" size="100,100">You write in the chat.
+]}</tw-passagedata><tw-passagedata pid="46" name="Warning 3" tags="" position="2125,1050" size="100,100">You write in the chat.
 {
  (live: 2s)[
     (stop:)
@@ -1346,7 +1347,7 @@ Nobody reacts to your message. What are you going to do?
 [[You call Clara directly on her phone.-&gt;ClaraPhone]]
 &lt;br&gt;
 [[You figure out what is best for your own safety.-&gt;WhatsNext]]
-]}</tw-passagedata><tw-passagedata pid="47" name="Chapter 1,5: Stairway to Heaven" tags="" position="2700,200" size="100,100">As you step into the stairwell, you see the Müllers again, carefully making their way down. Their arms are weighed down with bags and rucksacks, their movements slow and labored. You briefly wonder how they even got the news - surely they’re not swiping through TikTok or doomscrolling on X. Maybe they heard it from a neighbor, or the radio?
+]}</tw-passagedata><tw-passagedata pid="47" name="Chapter 1,5: Stairway to Heaven" tags="" position="3350,225" size="100,100">As you step into the stairwell, you see the Müllers again, carefully making their way down. Their arms are weighed down with bags and rucksacks, their movements slow and labored. You briefly wonder how they even got the news - surely they’re not swiping through TikTok or doomscrolling on X. Maybe they heard it from a neighbor, or the radio?
 
 (if: $Neighbourly)[Earlier, when you helped them carry up their vegetables, it had felt like a small, neighborly favor. Now, watching them struggle, you know this is different, far more pressing. And yet, you feel the urge to rush past them. You’re too anxious to get out, too desperate to move.](if: not $Neighbourly)[Watching them struggle like this immediately makes you want to relieve them of their burden. And yet, you feel the urge to rush past them. You’re too anxious to get out, too desperate to move.]
 
@@ -1354,7 +1355,7 @@ Nobody reacts to your message. What are you going to do?
 
 [[You offer to help with their bags.-&gt;Help carrying]]
 
-[[You ask them where they want to go.-&gt;Ask]]</tw-passagedata><tw-passagedata pid="48" name="Meal Check" tags="" position="1000,325" size="100,100">(if: $Mealtime &lt;2)[You stir the curry slowly, watching the thick, golden sauce ripple around the chickpeas. The aroma of the spices rises with the steam, rich and familiar. You dip the wooden spoon in, blow on it, and take a cautious sip.
+[[You ask them where they want to go.-&gt;Ask]]</tw-passagedata><tw-passagedata pid="48" name="Meal Check" tags="" position="1650,350" size="100,100">(if: $Mealtime &lt;2)[You stir the curry slowly, watching the thick, golden sauce ripple around the chickpeas. The aroma of the spices rises with the steam, rich and familiar. You dip the wooden spoon in, blow on it, and take a cautious sip.
 
 Still lukewarm. With a sigh, you set the spoon down on the edge of the pot and lean against the counter, letting the scent of spices wrap around you. 
 
@@ -1370,7 +1371,7 @@ Almost ready.]
 (if: $TikTok is 1)[[Keep watching TikTok, that&#39;s all you&#39;re capable of right now.-&gt;Swipe 2]](if: $TikTok is 2)[[Keep watching TikTok, that&#39;s all you&#39;re capable of right now.-&gt;Swipe 3]](if: $TikTok is 3)[[Keep watching TikTok, that&#39;s all you&#39;re capable of right now.-&gt;Swipe 4]]
 (set: $Mealtime to it+1)
 (set: $Jets to true)
-</tw-passagedata><tw-passagedata pid="49" name="Rucksack Survival Knife" tags="" position="1900,925" size="100,100">Your brother gave you the knife for Christmas once, though he never explained why. It’s one of those gifts that seem more like something the giver secretly wants for themselves. You always suspected he hoped you’d forget about it so he could eventually claim it as his own.
+</tw-passagedata><tw-passagedata pid="49" name="Rucksack Survival Knife" tags="" position="2550,950" size="100,100">Your brother gave you the knife for Christmas once, though he never explained why. It’s one of those gifts that seem more like something the giver secretly wants for themselves. You always suspected he hoped you’d forget about it so he could eventually claim it as his own.
 
 It’s a sturdy thing: black handle, partially serrated edge, a blade that folds out with a satisfying click. You’ve never had much use for it, apart from opening packages and once, clumsily slicing an apple on a picnic. But now, for some reason, it catches your eye.
 
@@ -1395,7 +1396,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $SurvivalKnife to true)
-(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="50" name="Suitcase Crank Radio" tags="" position="2025,1200" size="100,100">Good thing your internet research reminded you of how important it is to be informed in situations like these. 
+(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="50" name="Suitcase Crank Radio" tags="" position="2675,1225" size="100,100">Good thing your internet research reminded you of how important it is to be informed in situations like these. 
 
 You spot the small crank radio on the shelf, wedged between an old stack of books and a half-empty box of tea. You had almost forgotten about it. It was a gift from your dad, back when he was going through his “always be prepared” phase. He had read some survivalist blog and decided that everyone in the family needed one—just in case. You remember rolling your eyes at the time, stuffing it in a drawer and never thinking about it again.
 
@@ -1420,7 +1421,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $CrankRadio to true)
-(set: $ItemSuitcase to it+1)</tw-passagedata><tw-passagedata pid="51" name="Rucksack Gaffer Tape" tags="" position="2275,925" size="100,100">Someone once said that gaffer tape is the most useful thing you can have with you. You don’t remember who it was, maybe a YouTuber demonstrating survival hacks, or that guy at the hardware store who seemed way too passionate about adhesives. Either way, you’re pretty sure they were right.
+(set: $ItemSuitcase to it+1)</tw-passagedata><tw-passagedata pid="51" name="Rucksack Gaffer Tape" tags="" position="2925,950" size="100,100">Someone once said that gaffer tape is the most useful thing you can have with you. You don’t remember who it was, maybe a YouTuber demonstrating survival hacks, or that guy at the hardware store who seemed way too passionate about adhesives. Either way, you’re pretty sure they were right.
 
 Gaffer tape fixes everything. A broken shoe, a torn jacket, a leaking water bottle. You once saw a video of someone patching up a cracked car bumper with it. If the world is falling apart, having a roll of this stuff feels like a tiny act of defiance - a proof that problems, no matter how big, can at least be fixed for a little while.
 
@@ -1443,7 +1444,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $GafferTape to true)
-(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="52" name="Rucksack Flashlight" tags="" position="2150,925" size="100,100">You hesitate for a moment before reaching into the drawer, fingers brushing against cold metal. The flashlight isn’t anything fancy, just a sturdy, no-nonsense model with a slightly scratched casing. You bought it for a camping trip that never happened, a last-minute impulse purchase at the checkout line of an outdoor store. It was pricier than you&#39;d intended, but the cashier had raved about its durability, how it could survive being dropped from a roof or submerged in water. Not that you ever tested it.
+(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="52" name="Rucksack Flashlight" tags="" position="2800,950" size="100,100">You hesitate for a moment before reaching into the drawer, fingers brushing against cold metal. The flashlight isn’t anything fancy, just a sturdy, no-nonsense model with a slightly scratched casing. You bought it for a camping trip that never happened, a last-minute impulse purchase at the checkout line of an outdoor store. It was pricier than you&#39;d intended, but the cashier had raved about its durability, how it could survive being dropped from a roof or submerged in water. Not that you ever tested it.
 
 You click the button. A sharp beam cuts through the dim light of your apartment, illuminating dust motes in the air. It’s reassuring in a way you can’t quite explain. Light means control. It means not being at the mercy of the dark.
 
@@ -1466,7 +1467,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $Flashlight to true)
-(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="53" name="Suitcase Tins" tags="" position="1900,1200" size="100,100">You open the cupboard and let your eyes scan the shelves, landing on a few cans pushed toward the back - chickpeas, lentils, a tin of soup you don’t even remember buying. You grab one, feeling the cool metal in your palm, and glance at the expiration date. Still good. Probably good for years.
+(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="53" name="Suitcase Tins" tags="" position="2550,1225" size="100,100">You open the cupboard and let your eyes scan the shelves, landing on a few cans pushed toward the back - chickpeas, lentils, a tin of soup you don’t even remember buying. You grab one, feeling the cool metal in your palm, and glance at the expiration date. Still good. Probably good for years.
 
 You never really thought much about canned food before. It’s just… there. Something you buy when it’s on sale, something you keep around for lazy days when you don’t feel like cooking. You remember one winter when you were sick in bed, too exhausted to go shopping. Those cans had been a lifesaver then.
 
@@ -1491,7 +1492,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $Tins to true)
-(set: $ItemSuitcase to it+1)</tw-passagedata><tw-passagedata pid="54" name="Suitcase Water Bottle" tags="" position="2275,1325" size="100,100">You grab the metal water bottle from the counter, its matte surface cool against your fingers. It’s scratched in places, a faint dent on one side from when you dropped it on a hiking trip in the Harz Mountains. You’d slipped on some loose gravel, caught yourself just in time, but the bottle had taken the hit instead. It still works fine, though—no leaks, keeps water cold for hours.
+(set: $ItemSuitcase to it+1)</tw-passagedata><tw-passagedata pid="54" name="Suitcase Water Bottle" tags="" position="2925,1350" size="100,100">You grab the metal water bottle from the counter, its matte surface cool against your fingers. It’s scratched in places, a faint dent on one side from when you dropped it on a hiking trip in the Harz Mountains. You’d slipped on some loose gravel, caught yourself just in time, but the bottle had taken the hit instead. It still works fine, though—no leaks, keeps water cold for hours.
 
 You walk over to the sink, twist the tap, and watch the water rush out, clear and steady - for now. The sound is oddly soothing, normal, like nothing has changed. You let it run a moment longer before filling the bottle to the brim, tightening the lid firmly, and slipping it into your backpack.
 
@@ -1512,7 +1513,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $WaterBottle to true)
-(set: $ItemSuitcase to it+1)</tw-passagedata><tw-passagedata pid="55" name="Suitcase WarmClothes" tags="" position="2150,1200" size="100,100">You hesitate for a moment before opening the bottom drawer of your wardrobe. Thick sweaters, a woolen hat, thermal socks—things you haven’t touched in weeks. It’s summer, and not just any summer. The forecast says another heatwave is coming, the kind that turns the city into a slow-moving, sweat-drenched haze. No one in their right mind would be packing warm clothes right now.
+(set: $ItemSuitcase to it+1)</tw-passagedata><tw-passagedata pid="55" name="Suitcase WarmClothes" tags="" position="2800,1225" size="100,100">You hesitate for a moment before opening the bottom drawer of your wardrobe. Thick sweaters, a woolen hat, thermal socks—things you haven’t touched in weeks. It’s summer, and not just any summer. The forecast says another heatwave is coming, the kind that turns the city into a slow-moving, sweat-drenched haze. No one in their right mind would be packing warm clothes right now.
 
 And yet, as your fingers brush over the fabric, you can’t shake the thought lingering in the back of your mind. Nuclear winter. You don’t know much about it, only what you skimmed once in some article—how the smoke and dust could block out the sun, how temperatures could plummet even in the middle of summer. It had seemed like one of those theoretical catastrophes, the kind that only exist in books or distant history.
 
@@ -1536,7 +1537,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $WarmClothes to true)
-(set: $ItemSuitcase to it+1)</tw-passagedata><tw-passagedata pid="56" name="Final Warning" tags="" position="1275,1150" size="100,100">You write in the chat.
+(set: $ItemSuitcase to it+1)</tw-passagedata><tw-passagedata pid="56" name="Final Warning" tags="" position="1925,1175" size="100,100">You write in the chat.
 {
  (live: 2s)[
     (stop:)
@@ -1559,7 +1560,7 @@ What are you going to do?
 [[You call Clara directly on her phone.-&gt;ClaraPhone]]
 &lt;br&gt;
 [[You figure out what is best for your own safety.-&gt;WhatsNext]]
-]}</tw-passagedata><tw-passagedata pid="57" name="ClaraPhone" tags="" position="1425,1150" size="100,100">You call Clara directly. It takes ages for the call to go through and then there&#39;s a strange busy signal. You dial again, but it&#39;s the same again. 
+]}</tw-passagedata><tw-passagedata pid="57" name="ClaraPhone" tags="" position="2075,1175" size="100,100">You call Clara directly. It takes ages for the call to go through and then there&#39;s a strange busy signal. You dial again, but it&#39;s the same again. 
 
 It&#39;s time to take care of your own safety, you think. What are you going to do?
 
@@ -1567,7 +1568,7 @@ It&#39;s time to take care of your own safety, you think. What are you going to 
 &lt;br&gt;
 [[You immediately start packing.-&gt;Packing 1a]] 
 &lt;br&gt;
-(if: not $verify)[[You must know what&#39;s going on. A quick dive into the internet should still be an option.-&gt;Web Search 1]]</tw-passagedata><tw-passagedata pid="58" name="Rucksack Rain Cape" tags="" position="1775,1050" size="100,100">You pull out the rain cape, a sturdy, bright yellow one, the kind locals up north call a Friesennerz. You got it at Wacken, a year ago, when the festival turned into a mud bath after days of relentless rain. It wasn’t cheap, but by the second downpour, you knew it was worth every cent. Now, it might serve a far grimmer purpose. If nuclear fallout becomes a reality, having a layer between you and the elements could mean survival. You fold it tightly and shove it into your rucksack.
+(if: not $verify)[[You must know what&#39;s going on. A quick dive into the internet should still be an option.-&gt;Web Search 1]]</tw-passagedata><tw-passagedata pid="58" name="Rucksack Rain Cape" tags="" position="2425,1075" size="100,100">You pull out the rain cape, a sturdy, bright yellow one, the kind locals up north call a Friesennerz. You got it at Wacken, a year ago, when the festival turned into a mud bath after days of relentless rain. It wasn’t cheap, but by the second downpour, you knew it was worth every cent. Now, it might serve a far grimmer purpose. If nuclear fallout becomes a reality, having a layer between you and the elements could mean survival. You fold it tightly and shove it into your rucksack.
 
 (if: $ItemRucksack &lt; 4)[There&#39;s still room for one more item. Which one should it be?
 
@@ -1586,7 +1587,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $RainCape to true)
-(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="59" name="Rucksack Diving Mask" tags="" position="2275,1050" size="100,100">You pull the old diving mask from the back of your closet, its once-clear surface now slightly fogged from disuse. It’s bulky, covering most of your face, but it seals tightly around the edges, no gaps. That has to count for something. Next, you grab one of the last FFP2 masks from a half-crushed pack buried in a drawer, a leftover from the Covid-19 pandemic. The elastic bands are a little stretched, but it still fits snugly over your nose and mouth.
+(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="59" name="Rucksack Diving Mask" tags="" position="2925,1075" size="100,100">You pull the old diving mask from the back of your closet, its once-clear surface now slightly fogged from disuse. It’s bulky, covering most of your face, but it seals tightly around the edges, no gaps. That has to count for something. Next, you grab one of the last FFP2 masks from a half-crushed pack buried in a drawer, a leftover from the Covid-19 pandemic. The elastic bands are a little stretched, but it still fits snugly over your nose and mouth.
 
 You press the diving mask over it, adjusting the straps until it sits securely. It’s an awkward combination, makeshift and untested, but at least it’s something. You have no idea if this will actually help against contaminated air, but right now, it feels better to be doing something rather than nothing. You tuck an extra FFP2 mask into your bag, just in case.
 
@@ -1607,7 +1608,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $DivingMask to true)
-(set: $ItemRucksack to it+2)</tw-passagedata><tw-passagedata pid="60" name="Is it safe at home?" tags="" position="2300,1600" size="100,100">You have just finished packing your luggage and are about to tie your hiking boots when a thought occurs to you: Why do you even have to leave? Where would you go? Isn&#39;t it safest if you don&#39;t go outside at all? 
+(set: $ItemRucksack to it+2)</tw-passagedata><tw-passagedata pid="60" name="Is it safe at home?" tags="" position="2950,1625" size="100,100">You have just finished packing your luggage and are about to tie your hiking boots when a thought occurs to you: Why do you even have to leave? Where would you go? Isn&#39;t it safest if you don&#39;t go outside at all? 
 You briefly collect your thoughts and summarize what you know:
 
 (if: not $verify)[If you think about it, you don&#39;t know it anything of what you&#39;ve heard is actually true.]
@@ -1622,13 +1623,13 @@ You briefly collect your thoughts and summarize what you know:
 (if: $verify and $WinterIsComing and not $Warning)[[You must know if Berlin might be the next target.-&gt;Web Search 5]]
 (if: $verify and $Warning)[[You know Berlin will be next, so you should start packing.-&gt;Packing 1a]]
 [[Leave anyway.-&gt;Leave apartment]]
-(set: $Packed to true)</tw-passagedata><tw-passagedata pid="61" name="Leave apartment" tags="" position="2300,300" size="100,100">As you tie your hiking boots, a wave of melancholy washes over you. This could be the last time you see your apartment - the mismatched furniture, the books stacked haphazardly by the window, the faint scent of spices still lingering in the air. It was never perfect, but it was yours. You have no idea what awaits you out there, only that staying is no longer an option.
+(set: $Packed to true)</tw-passagedata><tw-passagedata pid="61" name="Leave apartment" tags="" position="2950,325" size="100,100">As you tie your hiking boots, a wave of melancholy washes over you. This could be the last time you see your apartment - the mismatched furniture, the books stacked haphazardly by the window, the faint scent of spices still lingering in the air. It was never perfect, but it was yours. You have no idea what awaits you out there, only that staying is no longer an option.
 
 You grab your (if: $ItemRucksack &gt;0)[rucksack, the weight of it pressing against your shoulders,] (if:$ItemSuitcase &gt;0)[suitcase]and head for the door. In the stairwell, hurried footsteps echo downward, voices hushed but urgent. You pause, your hand on the doorframe, and take one last look back into your living room. The chair where you spent countless nights studying, the blanket still draped over the couch. 
 
 [[You quietly say goodbye to the empty room and leave.-&gt;Chapter 1,5: Stairway to Heaven]]
 [[You say nothing and leave.-&gt;Chapter 1,5: Stairway to Heaven]]
-(set: $Packed to true)</tw-passagedata><tw-passagedata pid="62" name="Rucksack Water Bottle" tags="" position="2025,1050" size="100,100">You grab the metal water bottle from the counter, its matte surface cool against your fingers. It’s scratched in places, a faint dent on one side from when you dropped it on a hiking trip in the Harz Mountains. You’d slipped on some loose gravel, caught yourself just in time, but the bottle had taken the hit instead. It still works fine, though—no leaks, keeps water cold for hours.
+(set: $Packed to true)</tw-passagedata><tw-passagedata pid="62" name="Rucksack Water Bottle" tags="" position="2675,1075" size="100,100">You grab the metal water bottle from the counter, its matte surface cool against your fingers. It’s scratched in places, a faint dent on one side from when you dropped it on a hiking trip in the Harz Mountains. You’d slipped on some loose gravel, caught yourself just in time, but the bottle had taken the hit instead. It still works fine, though—no leaks, keeps water cold for hours.
 
 You walk over to the sink, twist the tap, and watch the water rush out, clear and steady - for now. The sound is oddly soothing, normal, like nothing has changed. You let it run a moment longer before filling the bottle to the brim, tightening the lid firmly, and slipping it into your backpack.
 
@@ -1649,7 +1650,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $WaterBottle to true)
-(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="63" name="Rucksack Tins" tags="" position="1900,1050" size="100,100">You open the cupboard and let your eyes scan the shelves, landing on a few cans pushed toward the back - chickpeas, lentils, a tin of soup you don’t even remember buying. You grab one, feeling the cool metal in your palm, and glance at the expiration date. Still good. Probably good for years.
+(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="63" name="Rucksack Tins" tags="" position="2550,1075" size="100,100">You open the cupboard and let your eyes scan the shelves, landing on a few cans pushed toward the back - chickpeas, lentils, a tin of soup you don’t even remember buying. You grab one, feeling the cool metal in your palm, and glance at the expiration date. Still good. Probably good for years.
 
 You never really thought much about canned food before. It’s just… there. Something you buy when it’s on sale, something you keep around for lazy days when you don’t feel like cooking. You remember one winter when you were sick in bed, too exhausted to go shopping. Those cans had been a lifesaver then.
 
@@ -1674,7 +1675,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $Tins to true)
-(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="64" name="Rucksack Crank Radio" tags="" position="2025,925" size="100,100">Good thing your internet research reminded you of how important it is to be informed in situations like these. 
+(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="64" name="Rucksack Crank Radio" tags="" position="2675,950" size="100,100">Good thing your internet research reminded you of how important it is to be informed in situations like these. 
 
 You spot the small crank radio on the shelf, wedged between an old stack of books and a half-empty box of tea. You had almost forgotten about it. It was a gift from your dad, back when he was going through his “always be prepared” phase. He had read some survivalist blog and decided that everyone in the family needed one—just in case. You remember rolling your eyes at the time, stuffing it in a drawer and never thinking about it again.
 
@@ -1700,7 +1701,7 @@ What do you want to do now?
 ]
 (set: $CrankRadio to true)
 (set: $DontForgetYourRadio to false)
-(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="65" name="Rucksack WarmClothes" tags="" position="2150,1050" size="100,100">You hesitate for a moment before opening the bottom drawer of your wardrobe. Thick sweaters, a woolen hat, thermal socks—things you haven’t touched in weeks. It’s summer, and not just any summer. The forecast says another heatwave is coming, the kind that turns the city into a slow-moving, sweat-drenched haze. No one in their right mind would be packing warm clothes right now.
+(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="65" name="Rucksack WarmClothes" tags="" position="2800,1075" size="100,100">You hesitate for a moment before opening the bottom drawer of your wardrobe. Thick sweaters, a woolen hat, thermal socks—things you haven’t touched in weeks. It’s summer, and not just any summer. The forecast says another heatwave is coming, the kind that turns the city into a slow-moving, sweat-drenched haze. No one in their right mind would be packing warm clothes right now.
 
 And yet, as your fingers brush over the fabric, you can’t shake the thought lingering in the back of your mind. Nuclear winter. You don’t know much about it, only what you skimmed once in some article—how the smoke and dust could block out the sun, how temperatures could plummet even in the middle of summer. It had seemed like one of those theoretical catastrophes, the kind that only exist in books or distant history.
 
@@ -1724,7 +1725,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $WarmClothes to true)
-(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="66" name="Suitcase Flashlight" tags="" position="2025,1325" size="100,100">You hesitate for a moment before reaching into the drawer, fingers brushing against cold metal. The flashlight isn’t anything fancy, just a sturdy, no-nonsense model with a slightly scratched casing. You bought it for a camping trip that never happened, a last-minute impulse purchase at the checkout line of an outdoor store. It was pricier than you&#39;d intended, but the cashier had raved about its durability, how it could survive being dropped from a roof or submerged in water. Not that you ever tested it.
+(set: $ItemRucksack to it+1)</tw-passagedata><tw-passagedata pid="66" name="Suitcase Flashlight" tags="" position="2675,1350" size="100,100">You hesitate for a moment before reaching into the drawer, fingers brushing against cold metal. The flashlight isn’t anything fancy, just a sturdy, no-nonsense model with a slightly scratched casing. You bought it for a camping trip that never happened, a last-minute impulse purchase at the checkout line of an outdoor store. It was pricier than you&#39;d intended, but the cashier had raved about its durability, how it could survive being dropped from a roof or submerged in water. Not that you ever tested it.
 
 You click the button. A sharp beam cuts through the dim light of your apartment, illuminating dust motes in the air. It’s reassuring in a way you can’t quite explain. Light means control. It means not being at the mercy of the dark.
 
@@ -1746,7 +1747,7 @@ What do you want to do now?
 [[Leave your apartment. Time is short!-&gt;Leave apartment]]
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
-(set: $Flashlight to true)</tw-passagedata><tw-passagedata pid="67" name="Suitcase Gaffer Tape" tags="" position="2275,1200" size="100,100">Someone once said that gaffer tape is the most useful thing you can have with you. You don’t remember who it was, maybe a YouTuber demonstrating survival hacks, or that guy at the hardware store who seemed way too passionate about adhesives. Either way, you’re pretty sure they were right.
+(set: $Flashlight to true)</tw-passagedata><tw-passagedata pid="67" name="Suitcase Gaffer Tape" tags="" position="2925,1225" size="100,100">Someone once said that gaffer tape is the most useful thing you can have with you. You don’t remember who it was, maybe a YouTuber demonstrating survival hacks, or that guy at the hardware store who seemed way too passionate about adhesives. Either way, you’re pretty sure they were right.
 
 Gaffer tape fixes everything. A broken shoe, a torn jacket, a leaking water bottle. You once saw a video of someone patching up a cracked car bumper with it. If the world is falling apart, having a roll of this stuff feels like a tiny act of defiance - a proof that problems, no matter how big, can at least be fixed for a little while.
 
@@ -1768,7 +1769,7 @@ What do you want to do now?
 [[Leave your apartment. Time is short!-&gt;Leave apartment]]
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
-(set: $GafferTape to true)</tw-passagedata><tw-passagedata pid="68" name="Suitcase Rain Cape" tags="" position="1900,1325" size="100,100">You pull out the rain cape, a sturdy, bright yellow one, the kind locals up north call a Friesennerz. You got it at Wacken, a year ago, when the festival turned into a mud bath after days of relentless rain. It wasn’t cheap, but by the second downpour, you knew it was worth every cent. Now, it might serve a far grimmer purpose. If nuclear fallout becomes a reality, having a layer between you and the elements could mean survival. You fold it tightly and shove it into your rucksack.
+(set: $GafferTape to true)</tw-passagedata><tw-passagedata pid="68" name="Suitcase Rain Cape" tags="" position="2550,1350" size="100,100">You pull out the rain cape, a sturdy, bright yellow one, the kind locals up north call a Friesennerz. You got it at Wacken, a year ago, when the festival turned into a mud bath after days of relentless rain. It wasn’t cheap, but by the second downpour, you knew it was worth every cent. Now, it might serve a far grimmer purpose. If nuclear fallout becomes a reality, having a layer between you and the elements could mean survival. You fold it tightly and shove it into your rucksack.
 
 (if: $ItemSuitcase &lt; 7)[There&#39;s still room for one more item. Which one should it be?
 
@@ -1787,7 +1788,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $RainCape to true)
-(set: $ItemSuitcase to it+1)</tw-passagedata><tw-passagedata pid="69" name="Suitcase Diving Mask" tags="" position="2150,1325" size="100,100">You pull the old diving mask from the back of your closet, its once-clear surface now slightly fogged from disuse. It’s bulky, covering most of your face, but it seals tightly around the edges, no gaps. That has to count for something. Next, you grab one of the last FFP2 masks from a half-crushed pack buried in a drawer, a leftover from the Covid-19 pandemic. The elastic bands are a little stretched, but it still fits snugly over your nose and mouth.
+(set: $ItemSuitcase to it+1)</tw-passagedata><tw-passagedata pid="69" name="Suitcase Diving Mask" tags="" position="2800,1350" size="100,100">You pull the old diving mask from the back of your closet, its once-clear surface now slightly fogged from disuse. It’s bulky, covering most of your face, but it seals tightly around the edges, no gaps. That has to count for something. Next, you grab one of the last FFP2 masks from a half-crushed pack buried in a drawer, a leftover from the Covid-19 pandemic. The elastic bands are a little stretched, but it still fits snugly over your nose and mouth.
 
 You press the diving mask over it, adjusting the straps until it sits securely. It’s an awkward combination, makeshift and untested, but at least it’s something. You have no idea if this will actually help against contaminated air, but right now, it feels better to be doing something rather than nothing. You tuck an extra FFP2 mask into your bag, just in case.
 
@@ -1808,7 +1809,7 @@ What do you want to do now?
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
 (set: $DivingMask to true)
-(set: $ItemSuitcase to it+2)</tw-passagedata><tw-passagedata pid="70" name="Suitcase Survival Knife" tags="" position="1775,1200" size="100,100">Your brother gave you the knife for Christmas once, though he never explained why. It’s one of those gifts that seem more like something the giver secretly wants for themselves. You always suspected he hoped you’d forget about it so he could eventually claim it as his own.
+(set: $ItemSuitcase to it+2)</tw-passagedata><tw-passagedata pid="70" name="Suitcase Survival Knife" tags="" position="2425,1225" size="100,100">Your brother gave you the knife for Christmas once, though he never explained why. It’s one of those gifts that seem more like something the giver secretly wants for themselves. You always suspected he hoped you’d forget about it so he could eventually claim it as his own.
 
 It’s a sturdy thing: black handle, partially serrated edge, a blade that folds out with a satisfying click. You’ve never had much use for it, apart from opening packages and once, clumsily slicing an apple on a picnic. But now, for some reason, it catches your eye.
 
@@ -1832,21 +1833,21 @@ What do you want to do now?
 [[Leave your apartment. Time is short!-&gt;Leave apartment]]
 [[Or do you even have to leave? Maybe it&#39;s safe here after all.-&gt;Is it safe at home?]] 
 ]
-(set: $SurvivalKnife to true)</tw-passagedata><tw-passagedata pid="71" name="Help carrying" tags="" position="2850,325" size="100,100">You&#39;ve met them many times before. Despite their advanced age, they regularly go for walks or run errands. It&#39;s adorable how they help each other with the little things the other can no longer manage. But this time they both seem overburdened, simply carrying too much stuff. Without giving much thought to how you would say this in German, you address them in English: &quot;Let me help you!&quot;, taking two large suitcases from them. 
+(set: $SurvivalKnife to true)</tw-passagedata><tw-passagedata pid="71" name="Help carrying" tags="" position="3500,350" size="100,100">You&#39;ve met them many times before. Despite their advanced age, they regularly go for walks or run errands. It&#39;s adorable how they help each other with the little things the other can no longer manage. But this time they both seem overburdened, simply carrying too much stuff. Without giving much thought to how you would say this in German, you address them in English: &quot;Let me help you!&quot;, taking two large suitcases from them. 
 &quot;Oh, danke, meine Liebe. Er, thank you!&quot; says the woman and smiles gratefully at you.
 It&#39;s such a shame that you&#39;ve never spoken to them before, apart from greeting them in the stairwell, you think. 
 You carry the heavy suitcases down two floors to the ground floor and are already halfway through the front door when the woman waves you back. ‘No no, this way!’ she calls to you, pointing to the basement stairs.
 
 [[You really need to hurry, there&#39;s no time to do this now.-&gt;Chapter 2: Sudden Impact]]
 [[You continue to carry them down.-&gt;Basement Home]]
-[[You ask them where they want to go.-&gt;Ask]]</tw-passagedata><tw-passagedata pid="72" name="Ask" tags="" position="2700,325" size="100,100">You briefly think about how you could phrase the question in German, but then only English words come out of your mouth: “Where do you want to go with all that luggage?”
+[[You ask them where they want to go.-&gt;Ask]]</tw-passagedata><tw-passagedata pid="72" name="Ask" tags="" position="3350,350" size="100,100">You briefly think about how you could phrase the question in German, but then only English words come out of your mouth: “Where do you want to go with all that luggage?”
 “To the basement,” the old woman replies. “We want to get to...err...safety. It&#39;s all the same as it was back then...” She suddenly seems disheartened, lost in a memory.
 
 [[You ask her if it&#39;s safe in the basement.-&gt;Basement Safe]]
 
 [[You ask her about back then.-&gt;German Couple Back Then]]
 
-[[You help her carrying the luggage to the basement.-&gt;Basement Home]]</tw-passagedata><tw-passagedata pid="73" name="Convinced" tags="" position="400,1200" size="100,100">You write in the chat:
+[[You help her carrying the luggage to the basement.-&gt;Basement Home]]</tw-passagedata><tw-passagedata pid="73" name="Convinced" tags="" position="1050,1225" size="100,100">You write in the chat:
 
 {
  (live: 2s)[
@@ -1877,83 +1878,83 @@ Now that you&#39;ve sorted that out, you can move on to other things.
 &lt;br&gt;
 (if: not $verify)[[You must know what&#39;s really going on. A quick dive into the internet should still be an option.-&gt;Web Search 1]]
 ]}
-(set: $GotoClara to true)</tw-passagedata><tw-passagedata pid="74" name="Help" tags="" position="3175,525" size="100,100"></tw-passagedata><tw-passagedata pid="75" name="Headed" tags="" position="3300,525" size="100,100"></tw-passagedata><tw-passagedata pid="76" name="Ride" tags="" position="3425,525" size="100,100"></tw-passagedata><tw-passagedata pid="77" name="Tiergartentunnel" tags="" position="3800,800" size="100,100">Crossing the Spandauer Canal, you ride along the waterway for a while until you finally turn right into the tunnel. Suddenly you get a bad feeling. Is it really such a good idea to go this way? What if there&#39;s a traffic jam down there? But as you glide effortlessly with the traffic into the pale light of the tunnel, you breathe a sigh of relief. If you can get through here smoothly, you&#39;ll be at Cora&#39;s in no time. Then, around a bend, a wall of red lights suddenly appears. Traffic jam, damn it. You knew it. Driving into this tunnel was such a bad idea. Now you&#39;re stuck here in your car and can&#39;t move forwards or backwards because more cars have already queued up behind you. What are you going to do? 
+(set: $GotoClara to true)</tw-passagedata><tw-passagedata pid="74" name="Help" tags="" position="3825,550" size="100,100"></tw-passagedata><tw-passagedata pid="75" name="Headed" tags="" position="3950,550" size="100,100"></tw-passagedata><tw-passagedata pid="76" name="Ride" tags="" position="4075,550" size="100,100"></tw-passagedata><tw-passagedata pid="77" name="Tiergartentunnel" tags="" position="4450,825" size="100,100">Crossing the Spandauer Canal, you ride along the waterway for a while until you finally turn right into the tunnel. Suddenly you get a bad feeling. Is it really such a good idea to go this way? What if there&#39;s a traffic jam down there? But as you glide effortlessly with the traffic into the pale light of the tunnel, you breathe a sigh of relief. If you can get through here smoothly, you&#39;ll be at Cora&#39;s in no time. Then, around a bend, a wall of red lights suddenly appears. Traffic jam, damn it. You knew it. Driving into this tunnel was such a bad idea. Now you&#39;re stuck here in your car and can&#39;t move forwards or backwards because more cars have already queued up behind you. What are you going to do? 
 
 [[You wait until the traffic finally moves on.-&gt;Wait Tunnel]]
 [[You continue on foot.-&gt;On Foot Tunnel 1]]
-[[What&#39;s that glow on the side, like a flashlight?-&gt;A Light?]]</tw-passagedata><tw-passagedata pid="78" name="Car" tags="" position="4000,525" size="100,100">You quickly find a car nearby in the app and walk down Antwerpener Straße. People keep coming towards you, most of whom are carrying a bag or suitcase just like you. By now, even the last person has probably noticed that something is going on. You can see it in their worried, haggard expressions. After just a few minutes, you stand in front of the car and open it. You throw your bag onto the passenger seat, get in and hit the start button. You drive down the road until you turn onto Müllerstraße and head towards the city center. Heading out of town in the opposite direction, the road is jam-packed and traffic is slow-moving. It seems most people want to get out of the city. Standing at a traffic light, a thought crosses your mind: maybe it&#39;s not such a good idea to drive to Clara after all?
+[[What&#39;s that glow on the side, like a flashlight?-&gt;A Light?]]</tw-passagedata><tw-passagedata pid="78" name="Car" tags="" position="4650,550" size="100,100">You quickly find a car nearby in the app and walk down Antwerpener Straße. People keep coming towards you, most of whom are carrying a bag or suitcase just like you. By now, even the last person has probably noticed that something is going on. You can see it in their worried, haggard expressions. After just a few minutes, you stand in front of the car and open it. You throw your bag onto the passenger seat, get in and hit the start button. You drive down the road until you turn onto Müllerstraße and head towards the city center. Heading out of town in the opposite direction, the road is jam-packed and traffic is slow-moving. It seems most people want to get out of the city. Standing at a traffic light, a thought crosses your mind: maybe it&#39;s not such a good idea to drive to Clara after all?
 
 [[You&#39;ve arranged it so you&#39;re going there now.-&gt;Downtown]]
-[[You want to go somewhere else.-&gt;Where to go?]]</tw-passagedata><tw-passagedata pid="79" name="Subway" tags="" position="4400,525" size="100,100"></tw-passagedata><tw-passagedata pid="80" name="Bike" tags="" position="4800,525" size="100,100"></tw-passagedata><tw-passagedata pid="81" name="Car Overground" tags="" position="4200,800" size="100,100">On a normal day, the route through the tunnel may be the fastest, but the thought of getting stuck inside a stuffy tunnel in the middle of this situation gives you goosebumps. Traveling above ground may take longer, and you may get stuck in a traffic jam, but at least you won&#39;t be trapped underground. And so you continue towards downtown. 
+[[You want to go somewhere else.-&gt;Where to go?]]</tw-passagedata><tw-passagedata pid="79" name="Subway" tags="" position="5050,550" size="100,100"></tw-passagedata><tw-passagedata pid="80" name="Bike" tags="" position="5450,550" size="100,100"></tw-passagedata><tw-passagedata pid="81" name="Car Overground" tags="" position="4850,825" size="100,100">On a normal day, the route through the tunnel may be the fastest, but the thought of getting stuck inside a stuffy tunnel in the middle of this situation gives you goosebumps. Traveling above ground may take longer, and you may get stuck in a traffic jam, but at least you won&#39;t be trapped underground. And so you continue towards downtown. 
 
 But you soon realize that this might not have been such a good idea after all. Downtown is full of cars, everyone wants to go somewhere, it&#39;s absolute chaos. People no longer pay attention to traffic lights or other traffic rules, everyone just wants to get on, wherever they are going. You are standing with your car in the middle of the turmoil, hardly able to tell if and when it will go on here. You wish you&#39;d driven through the tunnel! What do you want to do?
 
-[[It doesn&#39;t help, now I have to sit out the traffic jam.-&gt;Wait Overground]]</tw-passagedata><tw-passagedata pid="82" name="Downtown" tags="" position="4000,650" size="100,100">You told Cora you were coming, so that&#39;s what you&#39;re going to do. Your friends are waiting for you there. And where else would you go anyway? So let&#39;s get there, and quickly! The fastest way to her condo would be through Tiergartentunnel.
+[[It doesn&#39;t help, now I have to sit out the traffic jam.-&gt;Wait Overground]]</tw-passagedata><tw-passagedata pid="82" name="Downtown" tags="" position="4650,675" size="100,100">You told Cora you were coming, so that&#39;s what you&#39;re going to do. Your friends are waiting for you there. And where else would you go anyway? So let&#39;s get there, and quickly! The fastest way to her condo would be through Tiergartentunnel.
 
 [[I&#39;ll take the tunnel!-&gt;Tiergartentunnel]] 
-[[I&#39;d rather stay above ground-&gt;Car Overground]]</tw-passagedata><tw-passagedata pid="83" name="Wait Overground" tags="" position="4200,925" size="100,100"></tw-passagedata><tw-passagedata pid="84" name="Wait Tunnel" tags="" position="3675,925" size="100,100">You turn off the engine and wait. Why doesn&#39;t the traffic move on? What happened up ahead? After sitting idly in your car for a few minutes, you gradually begin to reconsider your decision. The exit of the tunnel can&#39;t be far away, maybe a few hundred meters. Would it perhaps be better to just leave your car and continue on foot? Or you could use the time to write to Cora to let her know what&#39;s going on.
+[[I&#39;d rather stay above ground-&gt;Car Overground]]</tw-passagedata><tw-passagedata pid="83" name="Wait Overground" tags="" position="4850,950" size="100,100"></tw-passagedata><tw-passagedata pid="84" name="Wait Tunnel" tags="" position="4325,950" size="100,100">You turn off the engine and wait. Why doesn&#39;t the traffic move on? What happened up ahead? After sitting idly in your car for a few minutes, you gradually begin to reconsider your decision. The exit of the tunnel can&#39;t be far away, maybe a few hundred meters. Would it perhaps be better to just leave your car and continue on foot? Or you could use the time to write to Cora to let her know what&#39;s going on.
 
 [[Continue on foot.-&gt;On Foot Tunnel 1]]
 [[Text Cora-&gt;Text Cora]]
 [[There was that light, maybe you should have a look after all?-&gt;A Light?]]
-[[You just stoically wait.-&gt;Wait Tunnel 2]]</tw-passagedata><tw-passagedata pid="85" name="On Foot Tunnel 1" tags="" position="3600,1200" size="100,100">Just as you&#39;re about to walk along the narrow sidewalk towards the end of the tunnel, you hear a voice behind you: “Wat solln dat werden, Fräulein? Lässte den Wagen hier einfach stehen oder wat?” A man in the car behind you has rolled down his window and is looking at you boldly. You don&#39;t quite understand what he&#39;s saying, but you assume he&#39;s annoyed that you&#39;ve just left the car on the road. There is an emergency lane next to the road. Do you want to move the car over there quickly?
+[[You just stoically wait.-&gt;Wait Tunnel 2]]</tw-passagedata><tw-passagedata pid="85" name="On Foot Tunnel 1" tags="" position="4250,1225" size="100,100">Just as you&#39;re about to walk along the narrow sidewalk towards the end of the tunnel, you hear a voice behind you: “Wat solln dat werden, Fräulein? Lässte den Wagen hier einfach stehen oder wat?” A man in the car behind you has rolled down his window and is looking at you boldly. You don&#39;t quite understand what he&#39;s saying, but you assume he&#39;s annoyed that you&#39;ve just left the car on the road. There is an emergency lane next to the road. Do you want to move the car over there quickly?
 
 [[No, let the guy get annoyed.-&gt;Ignore]]
-[[Okay, you&#39;ll move the car over.-&gt;Obey]]</tw-passagedata><tw-passagedata pid="86" name="A Light?" tags="" position="3900,1050" size="100,100">You look through your window to the side into the darkness. Somewhere out there you saw that light earlier. Maybe there are people looking for an emergency exit? After a brief moment of hesitation, you grab your bag and get out. The tunnel smells of car exhaust as some cars still have their engines running. A small sidewalk runs alongside the road. Only the glow of the car lights provides a little illuminance. There&#39;s an opening in the wall directly in front of you, but it&#39;s hard to tell whether it&#39;s a passageway or just an indentation. 
+[[Okay, you&#39;ll move the car over.-&gt;Obey]]</tw-passagedata><tw-passagedata pid="86" name="A Light?" tags="" position="4550,1075" size="100,100">You look through your window to the side into the darkness. Somewhere out there you saw that light earlier. Maybe there are people looking for an emergency exit? After a brief moment of hesitation, you grab your bag and get out. The tunnel smells of car exhaust as some cars still have their engines running. A small sidewalk runs alongside the road. Only the glow of the car lights provides a little illuminance. There&#39;s an opening in the wall directly in front of you, but it&#39;s hard to tell whether it&#39;s a passageway or just an indentation. 
 
 [[You head into the dark passageway.-&gt;Passage]]
 [[You follow the sidewalk at the border that leads out of the tunnel.-&gt;On Foot Tunnel 1]]
-[[This is all too eerie. You&#39;d rather retreat back to the safety of your car. -&gt;Wait Tunnel 2]]</tw-passagedata><tw-passagedata pid="87" name="Text Cora" tags="" position="3550,1050" size="100,100">You write Cora a short message to let her know it&#39;s going to take you a little longer. But for some reason, the message doesn&#39;t go through. Perhaps there is no reception down here in the tunnel? You check your group chat. The constant stream of messages suddenly stopped 15 minutes ago. Maybe they&#39;re all at Cora&#39;s already? You decide to call her directly. But all you hear is a strange busy signal. Could it be that all communication has broken down? Whatever the reason, you realize that you won&#39;t be able to reach anyone down here now.
+[[This is all too eerie. You&#39;d rather retreat back to the safety of your car. -&gt;Wait Tunnel 2]]</tw-passagedata><tw-passagedata pid="87" name="Text Cora" tags="" position="4200,1075" size="100,100">You write Cora a short message to let her know it&#39;s going to take you a little longer. But for some reason, the message doesn&#39;t go through. Perhaps there is no reception down here in the tunnel? You check your group chat. The constant stream of messages suddenly stopped 15 minutes ago. Maybe they&#39;re all at Cora&#39;s already? You decide to call her directly. But all you hear is a strange busy signal. Could it be that all communication has broken down? Whatever the reason, you realize that you won&#39;t be able to reach anyone down here now.
 
 [[Continue on foot.-&gt;On Foot Tunnel 1]]
 [[There was that light, maybe you should have a look after all?-&gt;A Light?]]
-[[You just stoically wait.-&gt;Wait Tunnel 2]]</tw-passagedata><tw-passagedata pid="88" name="Wait Tunnel 2" tags="" position="3300,1200" size="100,100"></tw-passagedata><tw-passagedata pid="89" name="Passage" tags="" position="3900,1200" size="100,100"></tw-passagedata><tw-passagedata pid="90" name="Obey" tags="" position="3675,1325" size="100,100">You get back into the car and drive to the edge under the watchful eye of the man. When you get out again, he says, “Na geht doch!”, which you don&#39;t understand, but his self-satisfied grin speaks volumes. 
+[[You just stoically wait.-&gt;Wait Tunnel 2]]</tw-passagedata><tw-passagedata pid="88" name="Wait Tunnel 2" tags="" position="3950,1225" size="100,100"></tw-passagedata><tw-passagedata pid="89" name="Passage" tags="" position="4550,1225" size="100,100"></tw-passagedata><tw-passagedata pid="90" name="Obey" tags="" position="4325,1350" size="100,100">You get back into the car and drive to the edge under the watchful eye of the man. When you get out again, he says, “Na geht doch!”, which you don&#39;t understand, but his self-satisfied grin speaks volumes. 
 
 You continue along the emergency sidewalk, past the waiting cars and their occupants. Apart from yourself, there is no one else walking. Do they know anything you don&#39;t? Maybe it&#39;s about to go on any moment?
 
 [[You go ahead. This traffic jam won&#39;t end any time soon.-&gt;On Foot Tunnel 2]]
-[[You better go back to your car and wait for the traffic jam to clear.-&gt;Wait Tunnel 2]]</tw-passagedata><tw-passagedata pid="91" name="Ignore" tags="" position="3550,1325" size="100,100">You don&#39;t listen to the guy and keep walking without looking back. You hear him ranting in his car, but after just a few meters the noise is drowned out by the humming of the engines. 
+[[You better go back to your car and wait for the traffic jam to clear.-&gt;Wait Tunnel 2]]</tw-passagedata><tw-passagedata pid="91" name="Ignore" tags="" position="4200,1350" size="100,100">You don&#39;t listen to the guy and keep walking without looking back. You hear him ranting in his car, but after just a few meters the noise is drowned out by the humming of the engines. 
 
 You continue along the emergency sidewalk, past the waiting cars and their occupants. Apart from yourself, there is no one else walking. Do they know anything you don&#39;t? Maybe it&#39;s about to go on any moment?
 
 [[You go ahead. This traffic jam won&#39;t end any time soon.-&gt;On Foot Tunnel 2]]
-[[You better go back to your car and wait for the traffic jam to clear.-&gt;Wait Tunnel 2]]</tw-passagedata><tw-passagedata pid="92" name="On Foot Tunnel 2" tags="" position="3675,1475" size="100,100"></tw-passagedata><tw-passagedata pid="93" name="No Bike For You" tags="" position="4675,525" size="100,100"></tw-passagedata><tw-passagedata pid="94" name="Basement Home" tags="" position="2825,450" size="100,100">You carry the heavy suitcases down the narrow basement stairs and follow the couple through the dimly lit basement corridor. It smells faintly of damp mustiness. You&#39;ve never been here during the whole year you&#39;ve lived in this house. As a temporary tenant, you have no use for the basement room because your landlord has all his belongings there. After a few meters, you enter the couple&#39;s cellar room through a heavy metal door. Quite spacious for a cellar, you think, with brick walls on all sides. On the walls are shelves with canned supplies. There&#39;s even some furniture here, an armchair and a sofa. You put the luggage on the floor.
+[[You better go back to your car and wait for the traffic jam to clear.-&gt;Wait Tunnel 2]]</tw-passagedata><tw-passagedata pid="92" name="On Foot Tunnel 2" tags="" position="4325,1500" size="100,100"></tw-passagedata><tw-passagedata pid="93" name="No Bike For You" tags="" position="5325,550" size="100,100"></tw-passagedata><tw-passagedata pid="94" name="Basement Home" tags="" position="3475,475" size="100,100">You carry the heavy suitcases down the narrow basement stairs and follow the couple through the dimly lit basement corridor. It smells faintly of damp mustiness. You&#39;ve never been here during the whole year you&#39;ve lived in this house. As a temporary tenant, you have no use for the basement room because your landlord has all his belongings there. After a few meters, you enter the couple&#39;s cellar room through a heavy metal door. Quite spacious for a cellar, you think, with brick walls on all sides. On the walls are shelves with canned supplies. There&#39;s even some furniture here, an armchair and a sofa. You put the luggage on the floor.
 The woman smiles at you. “Thank you so much, my dear. I don&#39;t think we could have done this without your help.”
 &quot;You&#39;re welcome, ma&#39;am.&quot;
 
 [[You ask her if it&#39;s safe down here.-&gt;Basement Safe]]
 [[You ask how long they plan on staying here.-&gt;How long?]]
 [[You excuse yourself and hurry away.-&gt;Chapter 2: Sudden Impact]]
-(set: $CarryLuggage to true)</tw-passagedata><tw-passagedata pid="95" name="Basement Safe" tags="" position="2625,450" size="100,100">&quot;I hope you don&#39;t mind me asking, but do you really think it&#39;s safe down there?&quot;, you ask tentatively. 
+(set: $CarryLuggage to true)</tw-passagedata><tw-passagedata pid="95" name="Basement Safe" tags="" position="3275,475" size="100,100">&quot;I hope you don&#39;t mind me asking, but do you really think it&#39;s safe down there?&quot;, you ask tentatively. 
 The old woman smiles gently. “Oh dear, I sat in this very basement over 80 years ago. Sometimes for days on end. This basement was still standing when everything else around it was in complete ruins. We&#39;re going to be fine down here.&quot;
 
 [[&quot;But this time it might be different...&quot;-&gt;This time could be different]]
 [[&quot;How long do you plan on staying there?&quot;-&gt;How long?]]
-[[&quot;I&#39;m sure everything will be fine.&quot;-&gt;You&#39;ll be fine]]</tw-passagedata><tw-passagedata pid="96" name="German Couple Back Then" tags="" position="2550,325" size="100,100">“What do you mean, back then?” The moment you ask the question, you realize what she meant.
+[[&quot;I&#39;m sure everything will be fine.&quot;-&gt;You&#39;ll be fine]]</tw-passagedata><tw-passagedata pid="96" name="German Couple Back Then" tags="" position="3200,350" size="100,100">“What do you mean, back then?” The moment you ask the question, you realize what she meant.
 “The Second World War, dear. We were just kids back then. But I still remember exactly how we had to go down to the basement all the time. I often think about it these days when I see reports from Ukraine. I never thought that...”, she leaves the sentence hanging in the air. 
 
 [[You ask her if it&#39;s safe down there.-&gt;Basement Safe]]
-[[You help her carrying the luggage to the basement.-&gt;Basement Home]]</tw-passagedata><tw-passagedata pid="97" name="How long?" tags="" position="2675,575" size="100,100">&quot;You carry a lot of stuff with you&quot;, you point out with a glance at all the luggage. &quot;How long do you plan on staying down here? And what is all this? I&#39;m sorry to ask so many questions...&quot;
+[[You help her carrying the luggage to the basement.-&gt;Basement Home]]</tw-passagedata><tw-passagedata pid="97" name="How long?" tags="" position="3325,600" size="100,100">&quot;You carry a lot of stuff with you&quot;, you point out with a glance at all the luggage. &quot;How long do you plan on staying down here? And what is all this? I&#39;m sorry to ask so many questions...&quot;
 &quot;That&#39;s fine, dear. Well, we&#39;ve packed everything we need to survive a few days in the cellar. Or even weeks. Plus a few other important things. A radio, important documents, memories.&quot; She looks at (if: $ItemRucksack &gt;0)[your rucksack on your back.] (if: $ItemSuitcase &gt;0)[you, and suddenly you remember you left your suitcase standing in the hallway.] &quot;Are you well prepared, dear?&quot;
 
 [[&quot;I think so.&quot;-&gt;Well-equipped]]
-[[&quot;Now that I&#39;m thinking about it...&quot;-&gt;Not well-equipped]]</tw-passagedata><tw-passagedata pid="98" name="This time could be different" tags="" position="2525,575" size="100,100">“But this time it could be different,” you say thoughtlessly. 
+[[&quot;Now that I&#39;m thinking about it...&quot;-&gt;Not well-equipped]]</tw-passagedata><tw-passagedata pid="98" name="This time could be different" tags="" position="3175,600" size="100,100">“But this time it could be different,” you say thoughtlessly. 
 “You mean because of the atomic bomb?” The old woman looks at you with a frown. “We&#39;ve thought about that too. Do you think we&#39;re not safe here?”
 
 [[&quot;I&#39;m sure everything will be fine.&quot;-&gt;You&#39;ll be fine]]
 [[&quot;I really don&#39;t know.-&gt;Don&#39;t know]]
-(if: $TooClose)[[&quot;Could be too close to the point of impact.&quot;-&gt;Too close]]</tw-passagedata><tw-passagedata pid="99" name="Well-equipped" tags="" position="2675,700" size="100,100">&quot;I think so, yeah.&quot; you reply confidently.</tw-passagedata><tw-passagedata pid="100" name="Not well-equipped" tags="" position="2800,700" size="100,100">&quot;Well...err...Now that you&#39;re asking, I have the feeling that I&#39;ve forgotten something important. Maybe I should have also brought a radio. And I think I don&#39;t have enough to eat.” The two are looking at you wonderingly. &quot;But... I&#39;m going to meet at my friend&#39;s place, I&#39;m sure they have enough of everything.&quot;
+(if: $TooClose)[[&quot;Could be too close to the point of impact.&quot;-&gt;Too close]]</tw-passagedata><tw-passagedata pid="99" name="Well-equipped" tags="" position="3325,725" size="100,100">&quot;I think so, yeah.&quot; you reply confidently.</tw-passagedata><tw-passagedata pid="100" name="Not well-equipped" tags="" position="3450,725" size="100,100">&quot;Well...err...Now that you&#39;re asking, I have the feeling that I&#39;ve forgotten something important. Maybe I should have also brought a radio. And I think I don&#39;t have enough to eat.” The two are looking at you wonderingly. &quot;But... I&#39;m going to meet at my friend&#39;s place, I&#39;m sure they have enough of everything.&quot;
 The woman smiles at you. “You are welcome to stay here with us. We have enough space in the basement. And plenty of supplies.”
 
 [[You gladly take up their offer.-&gt;Stay]]
 [[You politely refuse and say goodbye.-&gt;Chapter 2: Sudden Impact]] 
-</tw-passagedata><tw-passagedata pid="101" name="You&#39;ll be fine" tags="" position="2950,575" size="100,100">You&#39;re trying to hide your feeling of uncertainty. You have no idea whether it&#39;s safe here or not. But these two are here to stay, that&#39;s for sure. So why scare them. &quot;I&#39;m sure everything will be fine.&quot; 
+</tw-passagedata><tw-passagedata pid="101" name="You&#39;ll be fine" tags="" position="3600,600" size="100,100">You&#39;re trying to hide your feeling of uncertainty. You have no idea whether it&#39;s safe here or not. But these two are here to stay, that&#39;s for sure. So why scare them. &quot;I&#39;m sure everything will be fine.&quot; 
 “We&#39;ll just take it as it comes,” the woman sighs. “Just like we&#39;ve done all our lives. But you should make sure you get out of here, dear. Before it&#39;s too late.”
 
-[[You wish them good luck and go outside.-&gt;Chapter 2: Sudden Impact]] </tw-passagedata><tw-passagedata pid="102" name="Don&#39;t know" tags="" position="2550,700" size="100,100">&quot;Honestly, I really don&#39;t know. I mean, we don&#39;t even know what&#39;s going to happen. If anything&#39;s going to happen at all. Maybe we&#39;ll all be returning to our flats in a few hours.&quot; 
+[[You wish them good luck and go outside.-&gt;Chapter 2: Sudden Impact]] </tw-passagedata><tw-passagedata pid="102" name="Don&#39;t know" tags="" position="3200,725" size="100,100">&quot;Honestly, I really don&#39;t know. I mean, we don&#39;t even know what&#39;s going to happen. If anything&#39;s going to happen at all. Maybe we&#39;ll all be returning to our flats in a few hours.&quot; 
 You look at the old faces, hoping for some kind of reassurance or consolation. But they just stare at you silently.
 
-[[You tell them goodbye, wish them good luck and go outside.-&gt;Chapter 2: Sudden Impact]] </tw-passagedata><tw-passagedata pid="103" name="Stay" tags="" position="2800,825" size="100,100"></tw-passagedata><tw-passagedata pid="104" name="Too close" tags="" position="2400,700" size="100,100">You remember what Massimo said to you. He wouldn&#39;t want to give you a clear advice whether to stay in Wedding or not. But somehow you felt that he actually meant to say: It&#39;s too close to downtown, get the fuck out of there!
+[[You tell them goodbye, wish them good luck and go outside.-&gt;Chapter 2: Sudden Impact]] </tw-passagedata><tw-passagedata pid="103" name="Stay" tags="" position="3450,850" size="100,100"></tw-passagedata><tw-passagedata pid="104" name="Too close" tags="" position="3050,725" size="100,100">You remember what Massimo said to you. He wouldn&#39;t want to give you a clear advice whether to stay in Wedding or not. But somehow you felt that he actually meant to say: It&#39;s too close to downtown, get the fuck out of there!
 
 Looking at the old couple who are in the process of putting their belongings from their bags onto the shelves and cupboards, you&#39;re not sure what to say to them.
 
@@ -1962,7 +1963,7 @@ Even if they are very agile for their age, being on the run from a nuclear strik
 On the other hand, the decision to stay here could mean their agonizing death.
 
 [[You tell them.]]
-[[You don&#39;t.]]</tw-passagedata><tw-passagedata pid="105" name="Apartment 1" tags="" position="475,325" size="100,100">As you unlock the door to your apartment, you feel somehow rewarded by the encounter with the old couple. It&#39;s remarkable how agile they are, even though they must be well over 80 years old. While you are far from recognizing German dialects, you assume they are Berlin natives. They could certainly tell you a lot about this city with its eventful past.
+[[You don&#39;t.]]</tw-passagedata><tw-passagedata pid="105" name="Apartment 1" tags="" position="675,375" size="100,100">As you unlock the door to your apartment, you feel somehow rewarded by the encounter with the old couple. It&#39;s remarkable how agile they are, even though they must be well over 80 years old. While you are far from recognizing German dialects, you assume they are Berlin natives. They could certainly tell you a lot about this city with its eventful past.
 
 Your small apartment smells faintly of cumin and coriander as you enter, reminding you instantly of the chickpea curry you cooked yesterday. You tumble onto the old velvet green couch that was already here when you moved in last year, and let your backpack slip to the floor. Berlin’s June sunlight still streams through the thin curtains, casting shadows on the walls. There are children somewhere at the bottom of the courtyard playing, their squeals floating up with the distant sound of cars on Müllerstraße.
 
@@ -1972,7 +1973,7 @@ Your stomach is still rumbling. But now you&#39;re lying on the sofa and the lef
 
 [[You peel yourself out of the sofa and warm up your meal.-&gt;Meal Time]]
 
-</tw-passagedata><tw-passagedata pid="106" name="Wait" tags="" position="450,75" size="100,100">You step back and hold the door open as you wait. Herr and Frau Müller’s faces light up when they see you standing there. “Oh, hallo! Danke, danke,” Frau Müller says, shifting her bag to her other arm.
+</tw-passagedata><tw-passagedata pid="106" name="Wait" tags="" position="650,125" size="100,100">You step back and hold the door open as you wait. Herr and Frau Müller’s faces light up when they see you standing there. “Oh, hallo! Danke, danke,” Frau Müller says, shifting her bag to her other arm.
 
 “Kein Problem,” you reply, glad you came up with a suitable German phrase. As they shuffle inside, Herr Müller gives you a grateful smile and says something quickly in German that you don’t quite catch. Not wanting to seem rude, you smile and nod.
 
@@ -1987,22 +1988,28 @@ Suddenly someone comes running along the sidewalk and just manages to avoid cras
 
 
 
-</tw-passagedata><tw-passagedata pid="107" name="Hurry" tags="" position="600,25" size="100,100">You glance at the Müllers, feeling a twinge of guilt as you slip inside the building and let the door close behind you. It’s not that you don’t like them - quite the opposite. They’re adorable, always laughing and chatting, but the communication barrier makes interactions a little awkward. Your German is barely passable, and they don’t speak much English. Every conversation feels like a game of charades.
+</tw-passagedata><tw-passagedata pid="107" name="Hurry" tags="" position="800,75" size="100,100">You glance at the Müllers, feeling a twinge of guilt as you slip inside the building and let the door close behind you. It’s not that you don’t like them - quite the opposite. They’re adorable, always laughing and chatting, but the communication barrier makes interactions a little awkward. Your German is barely passable, and they don’t speak much English. Every conversation feels like a game of charades.
 
 You shake off the thought as you climb the stairs, your stomach growling insistently. The prospect of a quick meal was too tempting to resist. As you reach your door and fetch your keys, you catch yourself thinking about the Müllers again. It&#39;s remarkable how agile they are, even though they must be well over 80 years old. While you are far from recognizing German dialects, you assume they are Berlin natives. They could certainly tell you a lot about this city with its eventful past.
 
 [[Next time, you’ll stay and chat—or at least try.-&gt;Apartment 3]]
-[[Shouldn&#39;t there be leftovers from yesterday?-&gt;Apartment 4]]</tw-passagedata><tw-passagedata pid="108" name="Hannah" tags="" position="100,175" size="100,100">It&#39;s just before 5 p.m., so it must be 8 a.m. in California, where Hannah lives. You wouldn&#39;t call her if you didn&#39;t know she was already on her feet, having small kids. You take your cell phone out of your pocket and dial her number. 
+[[Shouldn&#39;t there be leftovers from yesterday?-&gt;Apartment 4]]</tw-passagedata><tw-passagedata pid="108" name="Hannah" tags="" position="175,225" size="100,100">It&#39;s just before 5 p.m., so it must be 8 a.m. in California, where Hannah lives. You wouldn&#39;t call her if you didn&#39;t know she was already on her feet, having small kids. You take your cell phone out of your pocket and dial her number. 
 
 You&#39;ve known each other since kindergarten. And even though your paths have been very different since school, you&#39;re still very close. While Hannah married her high school sweetheart and quickly had children, you studied, traveled the world and finally ended up here in Berlin. 
 
-Strange, the connection takes forever. You hang up and try again, waiting, until you finally hear a frantic busy signal.
+Strange, the connection takes forever.
 
-[[So much for modern communication.-&gt;Continue 2]]
-[[You&#39;ve never heard this kind of signal before.-&gt;Continue 3]]
-(set: $Hannah to true)</tw-passagedata><tw-passagedata pid="109" name="Continue 2" tags="" position="250,150" size="100,100">Pondering the vagaries of modern communication, you leave the median to turn onto Brüsseler Strasse, when suddenly you are almost hit by a car speeding past you. People are crazy, you think to yourself, as your apartment building comes into view. The familiar chipped paint on the front door and the potted plants on the neighbor’s windowsill feel like small, reassuring markers of stability. 
+[[Keep waiting.]]
 
-You reach the door when you notice your upstairs neighbors a few yards away, Herr and Frau Müller, shuffling slowly toward the entrance. Herr Müller carries a bucket with potatoes in one hand and a bouquet of daisies in the other, while Frau Müller clutches a bag overflowing with vegetables. Their quiet chatter drifts toward you, punctuated by their occasional laughter.
+[[Hang up and try again.]]
+
+[[Forget about it.-&gt;Continue 1]]
+
+
+
+</tw-passagedata><tw-passagedata pid="109" name="Continue 2" tags="" position="475,200" size="100,100">Continuing down the street, your apartment building soon comes into view. The familiar chipped paint on the front door and the potted plants on the neighbor’s windowsill feel like small, reassuring markers of stability. 
+
+Within sight, you notice your upstairs neighbors, Herr and Frau Müller, shuffling slowly toward the entrance. Herr Müller carries a bucket with potatoes in one hand and a bouquet of daisies in the other, while Frau Müller clutches a bag overflowing with vegetables.
 
 Although you often bump into them in the hallway or on the street, you&#39;ve never spoken to each other for any length of time. After almost a year in Berlin, your German is still patchy, to put it mildly, and you assume they hardly speak any English because they are really old.
 
@@ -2011,7 +2018,8 @@ You’re torn. You’re hungry, exhausted, and the idea of waiting another minut
 What do you do?
 
 [[Wait for the Müllers and hold the door open for them.-&gt;Wait]]
-[[Enter the building and head upstairs without waiting.-&gt;Hurry]]</tw-passagedata><tw-passagedata pid="110" name="Running Man" tags="" position="400,200" size="100,100">“Watch where you&#39;re going, man!” you exclaim. You look after the guy and your eyes meet briefly before he turns around and runs off down the road. The Müllers are already picking up the vegetables from the ground. You quickly kneel down and help them. “What an idiot,” you mutter more to yourself than to them. 
+[[Give them a friendly wave and head upstairs.-&gt;Hurry]]
+[[Pretend you haven&#39;t noticed them and enter the building quickly.-&gt;Hurry]]</tw-passagedata><tw-passagedata pid="110" name="Running Man" tags="" position="600,250" size="100,100">“Watch where you&#39;re going, man!” you exclaim. You look after the guy and your eyes meet briefly before he turns around and runs off down the road. The Müllers are already picking up the vegetables from the ground. You quickly kneel down and help them. “What an idiot,” you mutter more to yourself than to them. 
 
 Frau Müller wipes some dirt off a rhubarb stalk as if nothing had happened. “Er hat es wohl sehr eilig.” she says smugly.
 
@@ -2020,7 +2028,7 @@ When you have collected the bag again, you pick it up. “Let me carry this up f
 Frau Müller seems to have been waiting for this. “Thank you, dear. You know, at our age...err...ist das alles nicht mehr so einfach.” The conversation drifts into territory where your German struggles to keep up, but their kindness and enthusiasm make up for the language barrier. Eventually, you part ways on the second floor, waving goodbye as they head further up to their apartment.
 
 [[You feel a little lighter as you fetch your keys.-&gt;Apartment 1]]
-[[As much as you like them, speaking German still feels uncomfortable.-&gt;Apartment 2]]</tw-passagedata><tw-passagedata pid="111" name="Vegetables" tags="" position="550,200" size="100,100">You quickly kneel down and pick up the vegetables scattered on the ground. “What an idiot,” you mutter more to yourself than to the old couple.. 
+[[As much as you like them, speaking German still feels uncomfortable.-&gt;Apartment 2]]</tw-passagedata><tw-passagedata pid="111" name="Vegetables" tags="" position="750,250" size="100,100">You quickly kneel down and pick up the vegetables scattered on the ground. “What an idiot,” you mutter more to yourself than to the old couple.. 
 
 Frau Müller wipes some dirt off a rhubarb stalk as if nothing had happened. “Er hat es wohl sehr eilig.” she says smugly.
 
@@ -2029,7 +2037,7 @@ When you have collected the bag again, you pick it up. “Let me carry this up f
 Frau Müller seems to have been waiting for this. “Thank you, dear. You know, at our age...err...ist das alles nicht mehr so einfach.” The conversation drifts into territory where your German struggles to keep up, but their kindness and enthusiasm make up for the language barrier. Eventually, you part ways on the second floor, waving goodbye as they head further up to their apartment.
 
 [[You feel a little lighter as you fetch your keys.-&gt;Apartment 1]]
-[[As much as you like them, speaking German still feels uncomfortable.-&gt;Apartment 2]]</tw-passagedata><tw-passagedata pid="112" name="Continue 1" tags="" position="250,25" size="100,100">Just as you are about to leave the median strip to turn into Brüsseler Straße, you are almost hit by a car speeding along the road without any consideration. People are crazy, you think to yourself, as your apartment building comes into view. The familiar chipped paint on the front door and the potted plants on the neighbor’s windowsill feel like small, reassuring markers of stability. 
+[[As much as you like them, speaking German still feels uncomfortable.-&gt;Apartment 2]]</tw-passagedata><tw-passagedata pid="112" name="Continue 1" tags="" position="475,75" size="100,100">Just as you are about to leave the median strip to turn into Brüsseler Straße, you are almost hit by a car speeding along the road without any consideration. People are crazy, you think to yourself, as your apartment building comes into view. The familiar chipped paint on the front door and the potted plants on the neighbor’s windowsill feel like small, reassuring markers of stability. 
 
 You reach the door when you notice your upstairs neighbors a few yards away, Herr and Frau Müller, shuffling slowly toward the entrance. Herr Müller carries a bucket with potatoes in one hand and a bouquet of daisies in the other, while Frau Müller clutches a bag overflowing with vegetables. Their quiet chatter drifts toward you, punctuated by their occasional laughter.
 
@@ -2040,9 +2048,9 @@ You’re torn. You’re hungry, exhausted, and the idea of waiting another minut
 What do you do?
 
 [[Wait for the Müllers and hold the door open for them.-&gt;Wait]]
-[[Enter the building and head upstairs without waiting.-&gt;Hurry]]</tw-passagedata><tw-passagedata pid="113" name="Continue 3" tags="" position="250,275" size="100,100">Still that weird signal in your ear, you leave the median to turn onto Brüsseler Strasse, when suddenly you are almost hit by a car speeding past you. People are crazy, you think to yourself, as your apartment building comes into view. The familiar chipped paint on the front door and the potted plants on the neighbor’s windowsill feel like small, reassuring markers of stability. 
+[[Enter the building and head upstairs without waiting.-&gt;Hurry]]</tw-passagedata><tw-passagedata pid="113" name="Continue 3" tags="" position="475,325" size="100,100">Continuing down the street, your apartment building comes into view. The familiar chipped paint on the front door and the potted plants on the neighbor’s windowsill feel like small, reassuring markers of stability. 
 
-You reach the door when you notice your upstairs neighbors a few yards away, Herr and Frau Müller, shuffling slowly toward the entrance. Herr Müller carries a bucket with potatoes in one hand and a bouquet of daisies in the other, while Frau Müller clutches a bag overflowing with vegetables. Their quiet chatter drifts toward you, punctuated by their occasional laughter.
+Within sight, you notice your upstairs neighbors, Herr and Frau Müller, shuffling slowly toward the entrance. Herr Müller carries a bucket with potatoes in one hand and a bouquet of daisies in the other, while Frau Müller clutches a bag overflowing with vegetables.
 
 Although you often bump into them in the hallway or on the street, you&#39;ve never spoken to each other for any length of time. After almost a year in Berlin, your German is still patchy, to put it mildly, and you assume they hardly speak any English because they are really old.
 
@@ -2051,7 +2059,7 @@ You’re torn. You’re hungry, exhausted, and the idea of waiting another minut
 What do you do?
 
 [[Wait for the Müllers and hold the door open for them.-&gt;Wait]]
-[[Enter the building and head upstairs without waiting.-&gt;Hurry]]</tw-passagedata><tw-passagedata pid="114" name="Apartment 2" tags="" position="600,325" size="100,100">As you unlock the door to your apartment, you think about how such encounters with locals make you feel. It&#39;s annoying when you don&#39;t understand everything and can&#39;t say what you want to say. Isn&#39;t communication overrated anyway? As someone said, the single biggest problem in communication is the illusion that it has taken place. And although you had planned to immerse yourself in Berlin&#39;s local culture when you came here, you have to admit to yourself that you feel most comfortable with your circle of foreign student friends because they all speak English. But maybe that is Berlin culture after all.
+[[Enter the building and head upstairs without waiting.-&gt;Hurry]]</tw-passagedata><tw-passagedata pid="114" name="Apartment 2" tags="" position="800,375" size="100,100">As you unlock the door to your apartment, you think about how such encounters with locals make you feel. It&#39;s annoying when you don&#39;t understand everything and can&#39;t say what you want to say. Isn&#39;t communication overrated anyway? As someone said, the single biggest problem in communication is the illusion that it has taken place. And although you had planned to immerse yourself in Berlin&#39;s local culture when you came here, you have to admit to yourself that you feel most comfortable with your circle of foreign student friends because they all speak English. But maybe that is Berlin culture after all.
 
 Your small apartment smells faintly of cumin and coriander as you enter, reminding you instantly of the chickpea curry you cooked yesterday. You tumble onto the old velvet green couch that was already here when you moved in last year, and let your backpack slip to the floor. Berlin’s June sunlight still streams through the thin curtains, casting shadows on the walls. There are children somewhere at the bottom of the courtyard playing, their squeals floating up with the distant sound of cars on Müllerstraße.
 
@@ -2059,7 +2067,7 @@ Your stomach is still rumbling. But now you&#39;re lying on the sofa and the lef
 
 [[You can&#39;t get up now. Let&#39;s see what&#39;s on TikTok.-&gt;Swipe 1]]
 [[You peel yourself out of the sofa and warm up your meal.-&gt;Meal Time]]
-</tw-passagedata><tw-passagedata pid="115" name="Apartment 3" tags="" position="700,200" size="100,100">You make a firm resolution to stop and chat with them next time - regardless of whether everyone understands everything. If necessary, just talk with your hands and feet. As Oprah once said, great communication begins with connection. So that&#39;s what you&#39;re going to do, connect. Like once in Bologna, when you were chatting to these Italian ragazzi at this party and nobody understood what the other was trying to say, and it was still - or precisely because of that? - one of the funniest evenings ever.
+</tw-passagedata><tw-passagedata pid="115" name="Apartment 3" tags="" position="900,250" size="100,100">You make a firm resolution to stop and chat with them next time - regardless of whether everyone understands everything. If necessary, just talk with your hands and feet. As Oprah once said, great communication begins with connection. So that&#39;s what you&#39;re going to do, connect. Like once in Bologna, when you were chatting to these Italian ragazzi at this party and nobody understood what the other was trying to say, and it was still - or precisely because of that? - one of the funniest evenings ever.
 
 Your small apartment smells faintly of cumin and coriander as you enter, reminding you instantly of the chickpea curry you cooked yesterday. You tumble onto the old velvet green couch that was already here when you moved in last year, and let your backpack slip to the floor. Berlin’s June sunlight still streams through the thin curtains, casting shadows on the walls. There are children somewhere at the bottom of the courtyard playing, their squeals floating up with the distant sound of cars on Müllerstraße.
 
@@ -2067,7 +2075,7 @@ Your stomach is still rumbling. But now you&#39;re lying on the sofa and the lef
 
 [[You can&#39;t get up now. Let&#39;s see what&#39;s on TikTok.-&gt;Swipe 1]]
 [[You peel yourself out of the sofa and warm up your meal.-&gt;Meal Time]]
-</tw-passagedata><tw-passagedata pid="116" name="Apartment 4" tags="" position="800,75" size="100,100">You&#39;re just far too tired and hungry to think about how you can connect with the locals after more than a year in Berlin. The question of what you could eat now is much more important. Besides, you have your student friends here in Berlin who come from all over the world. In a way, you know a lot more about the places they come from than you do about the city you&#39;re all studying in.
+</tw-passagedata><tw-passagedata pid="116" name="Apartment 4" tags="" position="1000,125" size="100,100">You&#39;re just far too tired and hungry to think about how you can connect with the locals after more than a year in Berlin. The question of what you could eat now is much more important. Besides, you have your student friends here in Berlin who come from all over the world. In a way, you know a lot more about the places they come from than you do about the city you&#39;re all studying in.
 
 Your small apartment smells faintly of cumin and coriander as you enter, reminding you instantly of the chickpea curry you cooked yesterday. Thank goodness you won&#39;t have to starve! You tumble onto the old velvet green couch that was already here when you moved in last year, and let your backpack slip to the floor. Berlin’s June sunlight still streams through the thin curtains, casting shadows on the walls. There are children somewhere at the bottom of the courtyard playing, their squeals floating up with the distant sound of cars on Müllerstraße.
 
@@ -2075,7 +2083,7 @@ Your stomach is still rumbling. But now you&#39;re lying on the sofa and the lef
 
 [[You can&#39;t get up now. Let&#39;s see what&#39;s on TikTok.-&gt;Swipe 1]]
 [[You peel yourself out of the sofa and warm up your meal.-&gt;Meal Time]]
-</tw-passagedata><tw-passagedata pid="117" name="Delhi" tags="" position="950,200" size="100,100">You open your browser on the phone and type in “cheap flights to Delhi.” It’s something you’ve done countless times before, half wishful thinking, half serious planning. This time, though, you mean it. You tap on the first result, a flight comparison site, and enter some random dates a few months from now. You’re not sure when the best time to visit is. Winter, maybe? You remember Madhu once mentioning how unbearable the summer heat gets, the air thick and unmoving, pressing down like a weight.
+</tw-passagedata><tw-passagedata pid="117" name="Delhi" tags="" position="1600,225" size="100,100">You open your browser on the phone and type in “cheap flights to Delhi.” It’s something you’ve done countless times before, half wishful thinking, half serious planning. This time, though, you mean it. You tap on the first result, a flight comparison site, and enter some random dates a few months from now. You’re not sure when the best time to visit is. Winter, maybe? You remember Madhu once mentioning how unbearable the summer heat gets, the air thick and unmoving, pressing down like a weight.
 
 The site loads, the little search wheel spinning. Searching for the best deals…
 
@@ -2086,7 +2094,7 @@ A pop-up interrupts your thoughts - a red banner at the top of the screen. &#39;
 Your stomach tightens.
 
 [[You tap on the news banner.-&gt;News]]
-[[Clickbaiting becomes more and more blatant, you think.-&gt;Clickbait]]</tw-passagedata><tw-passagedata pid="118" name="News" tags="" position="300,500" size="100,100">You tap on the headline, and the page loads sluggishly, as if the internet itself is hesitating. The article is short - too short for something this serious.
+[[Clickbaiting becomes more and more blatant, you think.-&gt;Clickbait]]</tw-passagedata><tw-passagedata pid="118" name="News" tags="" position="950,525" size="100,100">You tap on the headline, and the page loads sluggishly, as if the internet itself is hesitating. The article is short - too short for something this serious.
 
 Multiple videos claiming to show a nuclear explosion near San Luis Obispo, California, surfaced on social media early this morning. The footage, which remains unverified, depicts a large mushroom cloud rising into the dawn sky. U.S. authorities have yet to confirm the authenticity of these claims, and no official statement has been released regarding any nuclear incident.
 
@@ -2102,7 +2110,7 @@ You exhale, pressing your lips together. So that means nothing. If something rea
 
 (if: not $parents)[[You call your parents to find out if they’re safe.-&gt;Parents 1]]
 
-(if: not $friends)[[You message your friends to see if they’ve heard about it.-&gt;Friends Chat 1]]</tw-passagedata><tw-passagedata pid="119" name="Packing 1b" tags="" position="1950,525" size="100,100">You&#39;re almost in your bedroom to pick up a bag when something occurs to you: Why do you want to leave? Where do you want to go? What does all this even mean? If there was a nuclear explosion in the States, what are the consequences? For you, here in Berlin? 
+(if: not $friends)[[You message your friends to see if they’ve heard about it.-&gt;Friends Chat 1]]</tw-passagedata><tw-passagedata pid="119" name="Packing 1b" tags="" position="2600,550" size="100,100">You&#39;re almost in your bedroom to pick up a bag when something occurs to you: Why do you want to leave? Where do you want to go? What does all this even mean? If there was a nuclear explosion in the States, what are the consequences? For you, here in Berlin? 
 
 You think carefully about what you want to do next.
 
@@ -2112,7 +2120,7 @@ You think carefully about what you want to do next.
 
 (if: not $parents)[[You call your parents to find out if they’re safe.-&gt;Parents 1]]
 
-[[It might be a good idea to eat your meal before you do anything else.-&gt;Eat]] </tw-passagedata><tw-passagedata pid="120" name="Eat" tags="" position="1300,325" size="100,100">With a slow breath, you force yourself to move. You turn off the burner, give the curry one last absentminded stir, and scoop it into a bowl. The scent of spices drifts up, warm, familiar, grounding.
+[[It might be a good idea to eat your meal before you do anything else.-&gt;Eat]] </tw-passagedata><tw-passagedata pid="120" name="Eat" tags="" position="1950,350" size="100,100">With a slow breath, you force yourself to move. You turn off the burner, give the curry one last absentminded stir, and scoop it into a bowl. The scent of spices drifts up, warm, familiar, grounding.
 
 You hesitate, phone still in hand. Should you start calling people? Check the internet for updates? Try to convince yourself it’s all just some massive misunderstanding?
 
@@ -2126,7 +2134,7 @@ It turns out to be the longest five minutes of your life. But when you finally f
 
 (if: not $parents)[[You call your parents to find out if they’re safe.-&gt;Parents 1]]
 
-(if: not $friends)[[You message your friends to see if they’ve heard the news.-&gt;Friends Chat 1]]</tw-passagedata><tw-passagedata pid="121" name="Clickbait" tags="" position="1100,200" size="100,100">You hesitate, eyes lingering on the banner. *Breaking News*. It’s almost funny how meaningless those words have become. Every other day, something is *breaking*. Some scandal, some outrage, some overblown story designed to make people panic-click.  
+(if: not $friends)[[You message your friends to see if they’ve heard the news.-&gt;Friends Chat 1]]</tw-passagedata><tw-passagedata pid="121" name="Clickbait" tags="" position="1750,225" size="100,100">You hesitate, eyes lingering on the banner. *Breaking News*. It’s almost funny how meaningless those words have become. Every other day, something is *breaking*. Some scandal, some outrage, some overblown story designed to make people panic-click.  
 
 You’ve lost count of how many times you’ve fallen for it -earth-shattering headlines that turn out to be nothing. A &quot;massive explosion&quot; that&#39;s just a gas leak, an &quot;apocalyptic storm&quot; that barely ruffles the trees. The cycle never stops. *Shock. Click. Scroll. Forget.*  
 
@@ -2134,7 +2142,7 @@ Maybe this is the same. Some overzealous headline writer slapping *nuclear* in t
 
 [[You tap on the news banner.-&gt;News]]
 (if: $TikTok is 1)[[You&#39;re in the mood for a lighter option. Let&#39;s go back to TikTok.-&gt;Swipe 2]](if: $TikTok is 2)[[You&#39;re in the mood for a lighter option. Let&#39;s go back to TikTok.-&gt;Swipe 3]](if: $TikTok is 3)[[You&#39;re in the mood for a lighter option. Let&#39;s go back to TikTok.-&gt;Swipe 4]]
-[[You&#39;re pretty confident the food is ready now.-&gt;Meal Check]]</tw-passagedata><tw-passagedata pid="122" name="Let her speak" tags="" position="1725,825" size="100,100">You let her finish her constant, thinly masked criticism of your dad, for what it&#39;s worth. But you can tell she is tense because she always does this when she&#39;s feeling particularly nervous, which also fuels your own tension.
+[[You&#39;re pretty confident the food is ready now.-&gt;Meal Check]]</tw-passagedata><tw-passagedata pid="122" name="Let her speak" tags="" position="2375,850" size="100,100">You let her finish her constant, thinly masked criticism of your dad, for what it&#39;s worth. But you can tell she is tense because she always does this when she&#39;s feeling particularly nervous, which also fuels your own tension.
 
 When she is about to take a breath, you take the opportunity to step in. &quot;Okay, but was there really a nuclear attack? I mean, you&#39;re not that far away, what if...&quot; 
 
@@ -2151,7 +2159,7 @@ You stare at your phone, panic creeping in. You try calling again, but you can&#
 (if: not $friends)[ [[You message your friends to see if they’ve heard the news.-&gt;Friends Chat 1]]]
 
 
-</tw-passagedata><tw-passagedata pid="123" name="Cut her off" tags="" position="1600,825" size="100,100">You cut her off: &quot;Okay, but was there really a nuclear attack? I mean, you&#39;re not that far away, what if...&quot; 
+</tw-passagedata><tw-passagedata pid="123" name="Cut her off" tags="" position="2250,850" size="100,100">You cut her off: &quot;Okay, but was there really a nuclear attack? I mean, you&#39;re not that far away, what if...&quot; 
 
 Your mother breaks in. &quot;You don&#39;t need to worry, honey. I&#39;m sure we&#39;ll be—&quot;
 
@@ -2164,7 +2172,7 @@ You stare at your phone, panic creeping in. You try calling again, but you can&#
 (if: $Overreaction)[[You immediately start packing.-&gt;Packing 1a]](if: not $Overreaction)[[You immediately start packing.-&gt;Packing 1b]]
 
 (if: not $friends)[ [[You message your friends to see if they’ve heard the news.-&gt;Friends Chat 1]]]
-</tw-passagedata><tw-passagedata pid="124" name="Window" tags="" position="1150,325" size="100,100">You rush to the window, but the jets have already disappeared beyond the rooftops, leaving only the fading echo of their engines in the distance. The sky is empty. Just an expanse of pale blue, undisturbed except for a few wisps of cloud drifting lazily above the buildings. You scan the horizon, half-expecting to catch some lingering trace of them, but there’s nothing.
+</tw-passagedata><tw-passagedata pid="124" name="Window" tags="" position="1800,350" size="100,100">You rush to the window, but the jets have already disappeared beyond the rooftops, leaving only the fading echo of their engines in the distance. The sky is empty. Just an expanse of pale blue, undisturbed except for a few wisps of cloud drifting lazily above the buildings. You scan the horizon, half-expecting to catch some lingering trace of them, but there’s nothing.
 
 Your gaze drops to the courtyard below. A few minutes ago, the sounds of children’s laughter and the rhythmic thunk of a ball against pavement filled the air. Now, it’s silent. The space looks oddly abandoned - the swings swaying slightly as if someone just jumped off, a toy truck left lying on its side near the sandbox. 
 
@@ -2175,7 +2183,7 @@ Something about this feels off. Fighter jets don’t just scream through the ski
 [[Try to search the internet for any reports about these jets.-&gt;Jet Search]]
 
 (if: $TikTok is 1)[[Keep watching TikTok, that&#39;s all you&#39;re capable of right now.-&gt;Swipe 2]](if: $TikTok is 2)[[Keep watching TikTok, that&#39;s all you&#39;re capable of right now.-&gt;Swipe 3]](if: $TikTok is 3)[[Keep watching TikTok, that&#39;s all you&#39;re capable of right now.-&gt;Swipe 4]]
-</tw-passagedata><tw-passagedata pid="125" name="Jet Search" tags="" position="450,500" size="100,100">You open your browser and navigate to //The Berliner//, a site you’ve come to rely on. It’s a comfort, really, a way to stay informed about what’s happening around you without the exhausting effort of deciphering badly machine translated German news articles. But there is no news about any jets. 
+</tw-passagedata><tw-passagedata pid="125" name="Jet Search" tags="" position="1100,525" size="100,100">You open your browser and navigate to //The Berliner//, a site you’ve come to rely on. It’s a comfort, really, a way to stay informed about what’s happening around you without the exhausting effort of deciphering badly machine translated German news articles. But there is no news about any jets. 
 
 With a flick of your thumb, you switch to your news aggregator. The page loads, and at the very top, a bright yellow banner stands out against the usual sea of headlines—a color reserved only for urgent alerts.
 
@@ -2191,9 +2199,48 @@ You swallow. This has to be some kind of hoax.
 
 (if: $TikTok is 1)[[You keep watching TikTok, that&#39;s all you&#39;re capable of right now.-&gt;Swipe 2]](if: $TikTok is 2)[[You keep watching TikTok, that&#39;s all you&#39;re capable of right now.-&gt;Swipe 3]](if: $TikTok is 3)[[You keep watching TikTok, that&#39;s all you&#39;re capable of right now.-&gt;Swipe 4]]
 
-</tw-passagedata><tw-passagedata pid="126" name="You tell them." tags="" position="2400,825" size="100,100"></tw-passagedata><tw-passagedata pid="127" name="You don&#39;t." tags="" position="2525,825" size="100,100"></tw-passagedata><tw-passagedata pid="128" name="Stick Around" tags="" position="2000,1600" size="100,100">You really decided to stay here, even though you should know what&#39;s going on by now? You&#39;d better go back and make a different decision. 
+</tw-passagedata><tw-passagedata pid="126" name="You tell them." tags="" position="3050,850" size="100,100"></tw-passagedata><tw-passagedata pid="127" name="You don&#39;t." tags="" position="3175,850" size="100,100"></tw-passagedata><tw-passagedata pid="128" name="Stick Around" tags="" position="2650,1625" size="100,100">You really decided to stay here, even though you should know what&#39;s going on by now? You&#39;d better go back and make a different decision. 
 
-[[Go back.-&gt;Web Search 5]]</tw-passagedata></tw-storydata>
+[[Go back.-&gt;Web Search 5]]</tw-passagedata><tw-passagedata pid="129" name="Keep waiting." tags="" position="200,350" size="100,100">You wait and wait and wait. And finally, just as you&#39;re about to hang up, it crackles, and at any moment you expect Hannah to finally greet you with her &#39;Hey sweetie&#39; as usual, but then all you hear is a strangely hectic busy signal that you&#39;ve never heard before.
+
+[[So much for modern communication.-&gt;Communication]]
+
+[[You&#39;ve never heard this kind of signal before.-&gt;Signal]]
+(set: $Hannah to true)
+
+</tw-passagedata><tw-passagedata pid="130" name="Hang up and try again." tags="" position="75,350" size="100,100">You hang up and dial her number again. While the connection is being made, you think about Hannah again. 
+
+She always makes fun of the fact that you live in a neighborhood called Wedding. And indeed, the name feels like a cosmic joke aimed directly at your perpetually single self. But you love this neighborhood, with its down-to-earth spirit. And you love your little apartment that you&#39;ve taken on as a subtenant in order to finish your master&#39;s degree at Humboldt University.
+
+After waiting for a while, you finally hear a frantic busy signal.
+
+[[So much for modern communication.-&gt;Communication]]
+
+[[You&#39;ve never heard this kind of signal before.-&gt;Signal]]
+(set: $Hannah to true)</tw-passagedata><tw-passagedata pid="131" name="Signal" tags="" position="75,475" size="100,100">Pondering the strange signal, you leave the median to turn onto Brüsseler Strasse. You&#39;ve never heard this kind of signal before, it wasn&#39;t a typical busy signal. In a world where instant communication reigns supreme, any kind of busy signal feels like a relic from a bygone era, you think. It&#39;s a cheeky reminder that sometimes, even technology needs a break.
+
+You are torn from your thoughts when suddenly a car almost hits you, speeding past you. You can see the driver&#39;s face out of the corner of your eye; he looks hounded - or even terrified?
+
+[[People are crazy, you think to yourself.-&gt;Continue 1]]
+
+[[What on earth made the man so scared?-&gt;Continue 2]]
+
+[[What if the guy had hit me?-&gt;Continue 3]]</tw-passagedata><tw-passagedata pid="132" name="Communication" tags="" position="200,475" size="100,100">(if: $Hannah)[Pondering the whims of modern communication](if: not $Hannah)[Pursuing the thoughts of a globetrotter], you leave the median to turn onto Brüsseler Strasse. It&#39;s funny how a message can traverse continents in the blink of an eye, and yet you might spend hours interpreting a single wink emoji. You can stream your thoughts live to an audience of thousands, yet feel profoundly lonely in a crowded digital room. And, weirdest of all: We have the entire world&#39;s knowledge at our fingertips, but misinformation spreads faster than ever.
+
+You are torn from your thoughts when suddenly a car almost hits you, speeding past you. You can see the driver&#39;s face out of the corner of your eye; he looks hounded - or even terrified? 
+
+[[People are crazy, you think to yourself.-&gt;Continue 1]]
+
+[[What on earth made the man so scared?-&gt;Continue 2]]
+
+[[What if the guy had hit me?-&gt;Continue 3]]</tw-passagedata><tw-passagedata pid="133" name=" California" tags="" position="50,225" size="100,100">Ever since you moved to Berlin, you&#39;ve had trouble getting the time difference to your home turf of California straight. It&#39;s just too confusing. When Hannah called you this morning, it must have been late evening for her, right before she went to bed. And now, as your long day in Berlin slowly turns into a leisurely home stretch, it must be early morning in Westlake, where she lives. 
+
+[[It&#39;s funny how the modern world works, you think.-&gt;Communication]]
+
+[[Maybe you should call her back, after all.-&gt;Hannah]]
+
+[[You&#39;re too tired to do anything except getting home now.-&gt;Continue 1]]
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
